@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: GTC50
+    relative_path: urdf/GTC50.xacro
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/GTC50.srdf
+  CONFIG:
+    author_name: zhou
+    author_email: 893224802@qq.com
+    generated_timestamp: 1593867524

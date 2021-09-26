@@ -1,0 +1,536 @@
+<?xml version="1.0"?>
+<robot name="GTC50" xmlns:xacro="http://ros.org/wiki/xacro">
+<!-- Defining the colors used in this robot -->
+    <material name="Black">
+        <color rgba="0 0 0 1"/>
+    </material>
+
+    <material name="White">
+        <color rgba="1 1 1 1"/>
+    </material>
+
+    <material name="Blue">
+        <color rgba="0 0 1 1"/>
+    </material>
+
+    <material name="Red">
+        <color rgba="1 0 0 1"/>
+    </material>
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-2.22044604925031E-16 6.83199693050895E-17 0.510591265730397"
+        rpy="0 0 0" />
+      <mass
+        value="7953.15264186251" />
+      <inertia
+        ixx="1347.95716721406"
+        ixy="-2.35727557295476E-29"
+        ixz="4.56135477890308E-14"
+        iyy="1347.95716721406"
+        iyz="-6.10387089374167E-14"
+        izz="1304.78602005821" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="link1">
+    <inertial>
+      <origin
+        xyz="0.1402579360995 -0.00296397399004992 0.0385206727982953"
+        rpy="0 0 0" />
+      <mass
+        value="218.241387213922" />
+      <inertia
+        ixx="3.89639609357686"
+        ixy="3.12556610143925E-05"
+        ixz="3.25514600682855"
+        iyy="59.6505615722838"
+        iyz="5.50824493055389E-05"
+        izz="60.6183193221336" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link1.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link1.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint1"
+    type="revolute">
+    <origin
+      xyz="0 0 1.195"
+      rpy="0 0 0" />
+    <parent
+      link="base_link" />
+    <child
+      link="link1" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0.2" />
+  </joint>
+  <link
+    name="link2">
+    <inertial>
+      <origin
+        xyz="-0.267512768327284 -0.480768872656578 6.29026420794669E-05"
+        rpy="0 0 0" />
+      <mass
+        value="342.441976457237" />
+      <inertia
+        ixx="22.1095243710871"
+        ixy="-6.51179780831409"
+        ixz="-0.000242496392449074"
+        iyy="14.469734054117"
+        iyz="-0.00194447673455383"
+        izz="20.1278833520316" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link2.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link2.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint2"
+    type="revolute">
+    <origin
+      xyz="0.75 0 0"
+      rpy="-1.5708 0 0" />
+    <parent
+      link="link1" />
+    <child
+      link="link2" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.9442"
+      upper="0"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="link3">
+    <inertial>
+      <origin
+        xyz="-0.365025055764326 1.35224545168329 -0.000755404137560502"
+        rpy="0 0 0" />
+      <mass
+        value="324.330933932256" />
+      <inertia
+        ixx="220.340770628707"
+        ixy="52.096732116252"
+        ixz="-1.72747196527819E-05"
+        iyy="17.4563704489236"
+        iyz="0.000102104641293162"
+        izz="232.62177927652" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link3.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link3.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint3"
+    type="revolute">
+    <origin
+      xyz="-0.48618 -0.87386 0"
+      rpy="0 0 -2.0785" />
+    <parent
+      link="link2" />
+    <child
+      link="link3" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.6349"
+      upper="0.2513"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="link4">
+    <inertial>
+      <origin
+        xyz="0.203404731438451 0.631033957113489 4.32228906484775E-05"
+        rpy="0 0 0" />
+      <mass
+        value="172.242104794445" />
+      <inertia
+        ixx="41.705388839301"
+        ixy="-9.21504864941852"
+        ixz="-0.000406228468790424"
+        iyy="4.79203946269428"
+        iyz="-0.00184653692719374"
+        izz="45.2878685475319" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link4.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link4.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint4"
+    type="revolute">
+    <origin
+      xyz="-0.64237 2.571 0"
+      rpy="0 0 1.8156" />
+    <parent
+      link="link3" />
+    <child
+      link="link4" />
+    <axis
+      xyz="0 0 -1" />
+    <limit
+      lower="-0.2773"
+      upper="1.2986"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="link5">
+    <inertial>
+      <origin
+        xyz="0.182471918148801 -0.115586096183161 2.13505700500698E-06"
+        rpy="0 0 0" />
+      <mass
+        value="53.0322449726246" />
+      <inertia
+        ixx="2.42742439202863"
+        ixy="0.64398596893206"
+        ixz="1.01022980724149E-05"
+        iyy="1.61012045127698"
+        iyz="3.54833134290007E-06"
+        izz="1.83757838583876" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link5.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link5.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint5"
+    type="revolute">
+    <origin
+      xyz="0.38933 1.3344 0"
+      rpy="0 0 1.2869" />
+    <parent
+      link="link4" />
+    <child
+      link="link5" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.8064"
+      upper="1.1684"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="link6">
+    <inertial>
+      <origin
+        xyz="1.63861516840957E-05 0.202307523565399 -0.0600398240571685"
+        rpy="0 0 0" />
+      <mass
+        value="0.433989503489896" />
+      <inertia
+        ixx="0.00610126137632666"
+        ixy="1.79160589338642E-09"
+        ixz="-6.44783744923135E-08"
+        iyy="0.0121840286684505"
+        iyz="-3.42570173291791E-10"
+        izz="0.00609561897305876" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link6.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link6.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint6"
+    type="revolute">
+    <origin
+      xyz="0.27368 -0.091745 0"
+      rpy="1.077 1.5708 0" />
+    <parent
+      link="link5" />
+    <child
+      link="link6" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      lower="-0.5236"
+      upper="0.5236"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="link7">
+    <inertial>
+      <origin
+        xyz="-0.0303131915710484 -0.0141683232441056 -0.618346125534817"
+        rpy="0 0 0" />
+      <mass
+        value="839.369478395896" />
+      <inertia
+        ixx="31.4998816468801"
+        ixy="-0.380151106268367"
+        ixz="0.233881830238147"
+        iyy="40.8639028385373"
+        iyz="1.24271589468454"
+        izz="31.8275650352462" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link7.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.529411764705882 0.549019607843137 0.549019607843137 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://GTC50/meshes/link7.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="joint7"
+    type="revolute">
+    <origin
+      xyz="0 0.22841 -0.065"
+      rpy="2.3183 -1.5109 -0.74838" />
+    <parent
+      link="link6" />
+    <child
+      link="link7" />
+    <axis
+      xyz="0.040743 0 0.99917" />
+    <limit
+      lower="-3.14"
+      upper="3.14"
+      effort="0"
+      velocity="0.1" />
+  </joint>
+  <link
+    name="grasping_frame">
+  </link>
+  <joint
+    name="grasping_frame_joint"
+    type="fixed">
+    <origin
+      xyz="-0.070706 -0.0013323 -0.99007"
+      rpy="-0.093688 0.0017892 -1.5269" />
+    <parent
+      link="link7" />
+    <child
+      link="grasping_frame" />
+    <axis
+      xyz="0 0 0" />
+  </joint>
+  <!-- /////////////////////////////////   Gazebo   ////////////////////////////////////// -->
+ 
+    <gazebo reference="base_link">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link1">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="link2">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="link3">
+        <material>Gazebo/Red</material>
+    </gazebo>
+    <gazebo reference="link4">
+        <material>Gazebo/Black</material>
+    </gazebo>
+    <gazebo reference="link5">
+        <material>Gazebo/White</material>
+    </gazebo>
+    <gazebo reference="link6">
+        <material>Gazebo/Blue</material>
+    </gazebo>
+    <gazebo reference="link7">
+        <material>Gazebo/Red</material>
+    </gazebo>
+	
+	<!-- Transmissions for ROS Control -->
+    <xacro:macro name="transmission_block" params="joint_name">
+        <transmission name="tran1">
+            <type>transmission_interface/SimpleTransmission</type>
+            <joint name="${joint_name}">
+                <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+            </joint>
+            <actuator name="motor1">
+                <hardwareInterface>hardware_interface/PositionJointInterface</hardwareInterface>
+                <mechanicalReduction>1</mechanicalReduction>
+            </actuator>
+        </transmission>
+    </xacro:macro>
+    
+    <xacro:transmission_block joint_name="joint1"/>
+    <xacro:transmission_block joint_name="joint2"/>
+    <xacro:transmission_block joint_name="joint3"/>
+    <xacro:transmission_block joint_name="joint4"/>
+    <xacro:transmission_block joint_name="joint5"/>
+    <xacro:transmission_block joint_name="joint6"/>
+    <xacro:transmission_block joint_name="joint7"/>
+
+    <!-- ros_control plugin -->
+    <gazebo>
+        <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so">
+            <robotNamespace>/GTC50</robotNamespace>
+        </plugin>
+    </gazebo>
+</robot>

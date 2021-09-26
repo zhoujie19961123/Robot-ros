@@ -1,0 +1,13 @@
+/home/zhou/ros1/install/_setup_util.py
+/home/zhou/ros1/install/env.sh
+/home/zhou/ros1/install/setup.bash
+/home/zhou/ros1/install/local_setup.bash
+/home/zhou/ros1/install/setup.sh
+/home/zhou/ros1/install/local_setup.sh
+/home/zhou/ros1/install/setup.zsh
+/home/zhou/ros1/install/local_setup.zsh
+/home/zhou/ros1/install/.rosinstall
+/home/zhou/ros1/install/lib/pkgconfig/learing_topic.pc
+/home/zhou/ros1/install/share/learing_topic/cmake/learing_topicConfig.cmake
+/home/zhou/ros1/install/share/learing_topic/cmake/learing_topicConfig-version.cmake
+/home/zhou/ros1/install/share/learing_topic/package.xml

@@ -1,0 +1,8 @@
+prefix=/home/zhou/ros1/devel
+
+Name: GTC50-1
+Description: Description of GTC50-1
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/zhou/ros1/devel
+
+Name: GTC50_moveit_setup
+Description: Description of GTC50_moveit_setup
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
