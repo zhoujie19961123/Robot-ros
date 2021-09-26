@@ -1,8 +1,0 @@
-prefix=/home/zhou/ros1/install
-
-Name: GTC50_moveit_config
-Description: Description of GTC50_moveit_config
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 

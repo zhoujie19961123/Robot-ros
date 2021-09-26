@@ -1,8 +1,0 @@
-prefix=/home/zhou/ros1/install
-
-Name: GTC50_arm_planning
-Description: Description of GTC50_arm_planning
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
