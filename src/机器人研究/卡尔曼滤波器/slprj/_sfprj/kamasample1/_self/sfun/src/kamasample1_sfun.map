@@ -1,0 +1,1794 @@
+ kamasample1_sfun
+
+ Timestamp is 5f197cb7 (Thu Jul 23 20:04:07 2020)
+
+ Preferred load address is 0000000180000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 0000fd4eH .text                   CODE
+ 0001:0000fd50 0000007bH .text$x                 CODE
+ 0002:00000000 00000448H .idata$5                DATA
+ 0002:00000448 00000008H .CRT$XCA                DATA
+ 0002:00000450 00000008H .CRT$XCZ                DATA
+ 0002:00000458 00000008H .CRT$XIA                DATA
+ 0002:00000460 00000008H .CRT$XIAA               DATA
+ 0002:00000468 00000008H .CRT$XIC                DATA
+ 0002:00000470 00000008H .CRT$XIZ                DATA
+ 0002:00000480 00000730H .rdata                  DATA
+ 0002:00000bb0 00000008H .rtc$IAA                DATA
+ 0002:00000bb8 00000008H .rtc$IZZ                DATA
+ 0002:00000bc0 00000008H .rtc$TAA                DATA
+ 0002:00000bc8 00000008H .rtc$TZZ                DATA
+ 0002:00000bd0 000006ccH .xdata                  DATA
+ 0002:0000129c 0000008cH .idata$2                DATA
+ 0002:00001328 00000014H .idata$3                DATA
+ 0002:00001340 00000448H .idata$4                DATA
+ 0002:00001788 00000c02H .idata$6                DATA
+ 0002:00002390 00000056H .edata                  DATA
+ 0003:00000000 000032a8H .data                   DATA
+ 0003:000032b0 000006c8H .bss                    DATA
+ 0004:00000000 00000810H .pdata                  DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       ___safe_se_handler_table   0000000000000000     <absolute>
+ 0000:00000000       ___safe_se_handler_count   0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000180000000     <linker-defined>
+ 0001:00000000       kamasample1_initializer    0000000180001000 f   kamasample1_sfun.obj
+ 0001:00000010       kamasample1_terminator     0000000180001010 f   kamasample1_sfun.obj
+ 0001:00000020       load_kamasample1_optimization_info 0000000180001020 f   kamasample1_sfun.obj
+ 0001:00000070       unload_kamasample1_optimization_info 0000000180001070 f   kamasample1_sfun.obj
+ 0001:000000a0       sf_kamasample1_method_dispatcher 00000001800010a0 f   kamasample1_sfun.obj
+ 0001:000000f0       sf_kamasample1_uses_exported_functions 00000001800010f0 f   kamasample1_sfun.obj
+ 0001:00000130       sf_kamasample1_process_check_sum_call 0000000180001130 f   kamasample1_sfun.obj
+ 0001:000007b0       sf_kamasample1_autoinheritance_info 00000001800017b0 f   kamasample1_sfun.obj
+ 0001:00000990       sf_kamasample1_get_eml_resolved_functions_info 0000000180001990 f   kamasample1_sfun.obj
+ 0001:00000b10       sf_kamasample1_third_party_uses_info 0000000180001b10 f   kamasample1_sfun.obj
+ 0001:00000ce0       sf_kamasample1_jit_fallback_info 0000000180001ce0 f   kamasample1_sfun.obj
+ 0001:00000eb0       sf_kamasample1_updateBuildInfo_args_info 0000000180001eb0 f   kamasample1_sfun.obj
+ 0001:00001080       sf_kamasample1_get_post_codegen_info 0000000180002080 f   kamasample1_sfun.obj
+ 0001:000011a0       kamasample1_debug_initialize 00000001800021a0 f   kamasample1_sfun.obj
+ 0001:00001220       kamasample1_register_exported_symbols 0000000180002220 f   kamasample1_sfun.obj
+ 0001:00001230       sf_c2_kamasample1_get_eml_resolved_functions_info 0000000180002230 f   c2_kamasample1.obj
+ 0001:000012a0       sf_c2_kamasample1_get_check_sum 00000001800022a0 f   c2_kamasample1.obj
+ 0001:00001370       c2_kamasample1_method_dispatcher 0000000180002370 f   c2_kamasample1.obj
+ 0001:00005d80       sf_c2_kamasample1_get_post_codegen_info 0000000180006d80 f   c2_kamasample1.obj
+ 0001:00005e50       sf_c2_kamasample1_get_autoinheritance_info 0000000180006e50 f   c2_kamasample1.obj
+ 0001:000067e0       sf_c2_kamasample1_third_party_uses_info 00000001800077e0 f   c2_kamasample1.obj
+ 0001:00006810       sf_c2_kamasample1_jit_fallback_info 0000000180007810 f   c2_kamasample1.obj
+ 0001:00006900       sf_c2_kamasample1_updateBuildInfo_args_info 0000000180007900 f   c2_kamasample1.obj
+ 0001:000081d0       mexFunction                00000001800091d0 f   kamasample1_sfun_registry.obj
+ 0001:00009370       _ssSetInputPortDirectFeedThroughFcn 000000018000a370 f   kamasample1_sfun_registry.obj
+ 0001:000094d0       _ssGetInputPortSignalPtrsFcn 000000018000a4d0 f   kamasample1_sfun_registry.obj
+ 0001:000096f0       _ssGetInputPortSignalFcn   000000018000a6f0 f   kamasample1_sfun_registry.obj
+ 0001:00009910       _ssSetInputPortReusableFcn 000000018000a910 f   kamasample1_sfun_registry.obj
+ 0001:000099f0       _ssSetOutputPortReusableFcn 000000018000a9f0 f   kamasample1_sfun_registry.obj
+ 0001:00009ad0       ssGetIsZeroCrossControlDisabled 000000018000aad0 f   kamasample1_sfun_registry.obj
+ 0001:00009b40       ssSetIsInputPortUsedForContZcSignal 000000018000ab40 f   kamasample1_sfun_registry.obj
+ 0001:00009bb0       ssSetZcSignalIsZcElementDisc 000000018000abb0 f   kamasample1_sfun_registry.obj
+ 0001:00009c60       ssSetZcSignalName          000000018000ac60 f   kamasample1_sfun_registry.obj
+ 0001:00009cd0       ssSetZcSignalWidth         000000018000acd0 f   kamasample1_sfun_registry.obj
+ 0001:00009d40       ssSetZcSignalZcEventType   000000018000ad40 f   kamasample1_sfun_registry.obj
+ 0001:00009db0       ssSetZcSignalType          000000018000adb0 f   kamasample1_sfun_registry.obj
+ 0001:00009e20       ssSetZcSignalZcTol         000000018000ae20 f   kamasample1_sfun_registry.obj
+ 0001:00009e90       ssSetZcSignalNeedsEventNotification 000000018000ae90 f   kamasample1_sfun_registry.obj
+ 0001:00009f00       ssCreateAndAddZcSignalInfo 000000018000af00 f   kamasample1_sfun_registry.obj
+ 0001:00009f70       ssCloneAndAddZcSignalInfo  000000018000af70 f   kamasample1_sfun_registry.obj
+ 0001:00009fe0       ssGetNumZcSignals          000000018000afe0 f   kamasample1_sfun_registry.obj
+ 0001:0000a050       ssGetZcSignalVector        000000018000b050 f   kamasample1_sfun_registry.obj
+ 0001:0000a0c0       ssGetZcSignalName          000000018000b0c0 f   kamasample1_sfun_registry.obj
+ 0001:0000a130       ssGetZcSignalWidth         000000018000b130 f   kamasample1_sfun_registry.obj
+ 0001:0000a1a0       ssGetZcSignalZcEventType   000000018000b1a0 f   kamasample1_sfun_registry.obj
+ 0001:0000a210       ssGetZcSignalZcEvents      000000018000b210 f   kamasample1_sfun_registry.obj
+ 0001:0000a280       ssGetZcSignalType          000000018000b280 f   kamasample1_sfun_registry.obj
+ 0001:0000a2f0       ssGetZcSignalZcTol         000000018000b2f0 f   kamasample1_sfun_registry.obj
+ 0001:0000a370       ssGetZcSignalNeedsEventNotification 000000018000b370 f   kamasample1_sfun_registry.obj
+ 0001:0000a3e0       ssGetZcSignalIsZcElementDisc 000000018000b3e0 f   kamasample1_sfun_registry.obj
+ 0001:0000a480       ssGetIsInputPortElementContinuous 000000018000b480 f   kamasample1_sfun_registry.obj
+ 0001:0000a520       ssGetDTypeIdFromMxArray    000000018000b520 f   kamasample1_sfun_registry.obj
+ 0001:0000a640       ssWriteRTWStr              000000018000b640 f   kamasample1_sfun_registry.obj
+ 0001:0000a6a0       ssWriteRTWNameValuePair    000000018000b6a0 f   kamasample1_sfun_registry.obj
+ 0001:0000aba0       ssWriteRTWParamSettings    000000018000bba0 f   kamasample1_sfun_registry.obj
+ 0001:0000b290       ssWriteRTWParameters       000000018000c290 f   kamasample1_sfun_registry.obj
+ 0001:0000b860       ssWriteRTWWorkVect         000000018000c860 f   kamasample1_sfun_registry.obj
+ 0001:0000bd50       ssWriteRTWMxVectParam      000000018000cd50 f   kamasample1_sfun_registry.obj
+ 0001:0000bdd0       ssWriteRTWMx2dMatParam     000000018000cdd0 f   kamasample1_sfun_registry.obj
+ 0001:0000be60       _ssSetInputPortMatrixDimensions 000000018000ce60 f   kamasample1_sfun_registry.obj
+ 0001:0000bf60       _ssSetOutputPortMatrixDimensions 000000018000cf60 f   kamasample1_sfun_registry.obj
+ 0001:0000c060       _ssSetInputPortVectorDimension 000000018000d060 f   kamasample1_sfun_registry.obj
+ 0001:0000c110       _ssSetOutputPortVectorDimension 000000018000d110 f   kamasample1_sfun_registry.obj
+ 0001:0000c1c0       ssIsRunTimeParamTunable    000000018000d1c0 f   kamasample1_sfun_registry.obj
+ 0001:0000c230       ssGetSFuncBlockHandle      000000018000d230 f   kamasample1_sfun_registry.obj
+ 0001:0000c2a0       _ssGetCurrentInputPortWidth 000000018000d2a0 f   kamasample1_sfun_registry.obj
+ 0001:0000c3c0       _ssGetCurrentOutputPortWidth 000000018000d3c0 f   kamasample1_sfun_registry.obj
+ 0001:0000c4e0       _ssGetCallSystemNumFcnCallDestinations 000000018000d4e0 f   kamasample1_sfun_registry.obj
+ 0001:0000c550       ssWarning                  000000018000d550 f   kamasample1_sfun_registry.obj
+ 0001:0000c640       _ssGetAbsTol               000000018000d640 f   kamasample1_sfun_registry.obj
+ 0001:0000c6b0       _ssSetStateAbsTol          000000018000d6b0 f   kamasample1_sfun_registry.obj
+ 0001:0000c790       sf_process_check_sum_call  000000018000d790 f   kamasample1_sfun_registry.obj
+ 0001:0000c7e0       sf_process_machine_uses_exported_functions_call 000000018000d7e0 f   kamasample1_sfun_registry.obj
+ 0001:0000c990       sf_process_autoinheritance_call 000000018000d990 f   kamasample1_sfun_registry.obj
+ 0001:0000cbc0       sf_process_get_third_party_uses_info_call 000000018000dbc0 f   kamasample1_sfun_registry.obj
+ 0001:0000cdf0       sf_process_get_jit_fallback_info_call 000000018000ddf0 f   kamasample1_sfun_registry.obj
+ 0001:0000d020       sf_process_get_updateBuildInfo_args_info_call 000000018000e020 f   kamasample1_sfun_registry.obj
+ 0001:0000d250       sf_process_get_eml_resolved_functions_info_call 000000018000e250 f   kamasample1_sfun_registry.obj
+ 0001:0000d450       sf_process_get_post_codegen_info 000000018000e450 f   kamasample1_sfun_registry.obj
+ 0001:0000d600       sf_mex_unlock_call         000000018000e600 f   kamasample1_sfun_registry.obj
+ 0001:0000d8e0       sf_machine_global_initializer_called 000000018000e8e0 f   kamasample1_sfun_registry.obj
+ 0001:0000d910       sf_machine_global_method_dispatcher 000000018000e910 f   kamasample1_sfun_registry.obj
+ 0001:0000d970       sf_machine_global_terminator 000000018000e970 f   kamasample1_sfun_registry.obj
+ 0001:0000d9c0       sf_register_machine_exported_symbols 000000018000e9c0 f   kamasample1_sfun_registry.obj
+ 0001:0000d9e0       callCustomFcn              000000018000e9e0 f   kamasample1_sfun_registry.obj
+ 0001:0000d9f0       sf_machine_global_initializer 000000018000e9f0 f   kamasample1_sfun_registry.obj
+ 0001:0000dab0       mdlGetSimState             000000018000eab0 f   kamasample1_sfun_registry.obj
+ 0001:0000daf0       mdlSetSimState             000000018000eaf0 f   kamasample1_sfun_registry.obj
+ 0001:0000e2c0       ProcessMexSfunctionEveryCall 000000018000f2c0 f   kamasample1_sfun_registry.obj
+ 0001:0000ef34       sf_load_rtw_optimization_info 000000018000ff34 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef3a       sf_debug_initialize_machine 000000018000ff3a f   sf_runtime:sf_runtime.dll
+ 0001:0000ef40       sf_debug_set_machine_event_thresholds 000000018000ff40 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef46       sf_debug_set_machine_data_thresholds 000000018000ff46 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef4c       sf_rtw_info_uint_prop      000000018000ff4c f   sf_runtime:sf_runtime.dll
+ 0001:0000ef52       sf_update_buildInfo        000000018000ff52 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef58       sf_is_chart_inlinable      000000018000ff58 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef5e       sf_mark_chart_reusable_outputs 000000018000ff5e f   sf_runtime:sf_runtime.dll
+ 0001:0000ef64       sf_mark_chart_expressionable_inputs 000000018000ff64 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef6a       sim_mode_is_rtw_gen        000000018000ff6a f   sf_runtime:sf_runtime.dll
+ 0001:0000ef70       sim_mode_is_external       000000018000ff70 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef76       sf_clear_rtw_identifier    000000018000ff76 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef7c       sf_set_rtw_dwork_info      000000018000ff7c f   sf_runtime:sf_runtime.dll
+ 0001:0000ef82       sf_get_time                000000018000ff82 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef88       sf_mex_call_debug          000000018000ff88 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef8e       sf_mex_error_message       000000018000ff8e f   sf_runtime:sf_runtime.dll
+ 0001:0000ef94       sf_mex_addfield            000000018000ff94 f   sf_runtime:sf_runtime.dll
+ 0001:0000ef9a       sf_mex_createstruct        000000018000ff9a f   sf_runtime:sf_runtime.dll
+ 0001:0000efa0       sf_mex_create              000000018000ffa0 f   sf_runtime:sf_runtime.dll
+ 0001:0000efa6       sf_mex_createcellmatrix    000000018000ffa6 f   sf_runtime:sf_runtime.dll
+ 0001:0000efac       sf_mex_setcell             000000018000ffac f   sf_runtime:sf_runtime.dll
+ 0001:0000efb2       sf_mex_getcell             000000018000ffb2 f   sf_runtime:sf_runtime.dll
+ 0001:0000efb8       sf_mex_assign              000000018000ffb8 f   sf_runtime:sf_runtime.dll
+ 0001:0000efbe       sf_mex_dup                 000000018000ffbe f   sf_runtime:sf_runtime.dll
+ 0001:0000efc4       sf_mex_destroy             000000018000ffc4 f   sf_runtime:sf_runtime.dll
+ 0001:0000efca       sf_mex_import              000000018000ffca f   sf_runtime:sf_runtime.dll
+ 0001:0000efd0       sf_mex_decode_encoded_mx_struct_array 000000018000ffd0 f   sf_runtime:sf_runtime.dll
+ 0001:0000efd6       sf_mex_duplicatearraysafe  000000018000ffd6 f   sf_runtime:sf_runtime.dll
+ 0001:0000efdc       sf_mex_emlrtNameCapturePostProcessR2012a 000000018000ffdc f   sf_runtime:sf_runtime.dll
+ 0001:0000efe2       ssGetInputPortSignal_wrapper 000000018000ffe2 f   sf_runtime:sf_runtime.dll
+ 0001:0000efe8       ssGetOutputPortSignal_wrapper 000000018000ffe8 f   sf_runtime:sf_runtime.dll
+ 0001:0000efee       sf_debug_initialize_chart  000000018000ffee f   sf_runtime:sf_runtime.dll
+ 0001:0000eff4       sf_debug_call              000000018000fff4 f   sf_runtime:sf_runtime.dll
+ 0001:0000effa       eml_debug_line_call        000000018000fffa f   sf_runtime:sf_runtime.dll
+ 0001:0000f000       cv_eml_eval                0000000180010000 f   sf_runtime:sf_runtime.dll
+ 0001:0000f006       cv_eml_init_script         0000000180010006 f   sf_runtime:sf_runtime.dll
+ 0001:0000f00c       cv_eml_init_fcn            000000018001000c f   sf_runtime:sf_runtime.dll
+ 0001:0000f012       sf_debug_reset_current_state_configuration 0000000180010012 f   sf_runtime:sf_runtime.dll
+ 0001:0000f018       sf_debug_check_for_state_inconsistency 0000000180010018 f   sf_runtime:sf_runtime.dll
+ 0001:0000f01e       sf_debug_set_chart_data_props 000000018001001e f   sf_runtime:sf_runtime.dll
+ 0001:0000f024       sf_debug_set_chart_data_compiled_props 0000000180010024 f   sf_runtime:sf_runtime.dll
+ 0001:0000f02a       sf_debug_symbol_scope_push 000000018001002a f   sf_runtime:sf_runtime.dll
+ 0001:0000f030       sf_debug_symbol_scope_push_eml 0000000180010030 f   sf_runtime:sf_runtime.dll
+ 0001:0000f036       sf_debug_symbol_scope_pop  0000000180010036 f   sf_runtime:sf_runtime.dll
+ 0001:0000f03c       sf_debug_symbol_scope_add_eml 000000018001003c f   sf_runtime:sf_runtime.dll
+ 0001:0000f042       sf_debug_symbol_scope_add_eml_importable 0000000180010042 f   sf_runtime:sf_runtime.dll
+ 0001:0000f048       sf_debug_set_instance_data_value_ptr 0000000180010048 f   sf_runtime:sf_runtime.dll
+ 0001:0000f04e       sf_debug_set_chart_disable_implicit_casting 000000018001004e f   sf_runtime:sf_runtime.dll
+ 0001:0000f054       sf_debug_set_chart_event_thresholds 0000000180010054 f   sf_runtime:sf_runtime.dll
+ 0001:0000f05a       sf_debug_set_chart_state_info 000000018001005a f   sf_runtime:sf_runtime.dll
+ 0001:0000f060       sf_debug_set_chart_decomposition 0000000180010060 f   sf_runtime:sf_runtime.dll
+ 0001:0000f066       sf_debug_set_chart_substate_count 0000000180010066 f   sf_runtime:sf_runtime.dll
+ 0001:0000f06c       sf_debug_data_range_wrapper 000000018001006c f   sf_runtime:sf_runtime.dll
+ 0001:0000f072       sf_debug_cv_init_trans     0000000180010072 f   sf_runtime:sf_runtime.dll
+ 0001:0000f078       sf_debug_cv_init_chart     0000000180010078 f   sf_runtime:sf_runtime.dll
+ 0001:0000f07e       sf_debug_cv_init_state     000000018001007e f   sf_runtime:sf_runtime.dll
+ 0001:0000f084       callMdlMethodAndReportError 0000000180010084 f   sf_runtime:sf_runtime.dll
+ 0001:0000f08a       call_sf_machine_global_method_dispatcher 000000018001008a f   sf_runtime:sf_runtime.dll
+ 0001:0000f090       sf_mex_error_direct_call   0000000180010090 f   sf_runtime:sf_runtime.dll
+ 0001:0000f096       sf_clear_error_manager_info 0000000180010096 f   sf_runtime:sf_runtime.dll
+ 0001:0000f09c       sf_debug_create_debug_instance_struct 000000018001009c f   sf_runtime:sf_runtime.dll
+ 0001:0000f0a2       sf_debug_terminate         00000001800100a2 f   sf_runtime:sf_runtime.dll
+ 0001:0000f0a8       sf_debug_api               00000001800100a8 f   sf_runtime:sf_runtime.dll
+ 0001:0000f0ae       mxIsChar                   00000001800100ae f   libmx:libmx.dll
+ 0001:0000f0b4       mxGetPr                    00000001800100b4 f   libmx:libmx.dll
+ 0001:0000f0ba       mxGetScalar                00000001800100ba f   libmx:libmx.dll
+ 0001:0000f0c0       mxDestroyArray             00000001800100c0 f   libmx:libmx.dll
+ 0001:0000f0c6       mxCreateDoubleMatrix_730   00000001800100c6 f   libmx:libmx.dll
+ 0001:0000f0cc       mxCreateLogicalScalar      00000001800100cc f   libmx:libmx.dll
+ 0001:0000f0d2       mxGetString_730            00000001800100d2 f   libmx:libmx.dll
+ 0001:0000f0d8       mxDuplicateArray           00000001800100d8 f   libmx:libmx.dll
+ 0001:0000f0de       mxSetField_730             00000001800100de f   libmx:libmx.dll
+ 0001:0000f0e4       mxCreateDoubleScalar       00000001800100e4 f   libmx:libmx.dll
+ 0001:0000f0ea       mxCreateString             00000001800100ea f   libmx:libmx.dll
+ 0001:0000f0f0       mxCreateCellMatrix_730     00000001800100f0 f   libmx:libmx.dll
+ 0001:0000f0f6       mxCreateCellArray_730      00000001800100f6 f   libmx:libmx.dll
+ 0001:0000f0fc       mxCreateStructMatrix_730   00000001800100fc f   libmx:libmx.dll
+ 0001:0000f102       mxCreateStructArray_730    0000000180010102 f   libmx:libmx.dll
+ 0001:0000f108       mxCalloc                   0000000180010108 f   libmx:libmx.dll
+ 0001:0000f10e       mxGetM                     000000018001010e f   libmx:libmx.dll
+ 0001:0000f114       mxGetClassID               0000000180010114 f   libmx:libmx.dll
+ 0001:0000f11a       mxIsNumeric                000000018001011a f   libmx:libmx.dll
+ 0001:0000f120       mxIsComplex                0000000180010120 f   libmx:libmx.dll
+ 0001:0000f126       mxGetN                     0000000180010126 f   libmx:libmx.dll
+ 0001:0000f12c       mexMakeArrayPersistent     000000018001012c f   libmex:libmex.dll
+ 0001:0000f132       mexErrMsgTxt               0000000180010132 f   libmex:libmex.dll
+ 0001:0000f138       mexWarnMsgTxt              0000000180010138 f   libmex:libmex.dll
+ 0001:0000f13e       mexCallMATLABWithObject    000000018001013e f   libmex:libmex.dll
+ 0001:0000f144       mexLock                    0000000180010144 f   libmex:libmex.dll
+ 0001:0000f14a       mexUnlock                  000000018001014a f   libmex:libmex.dll
+ 0001:0000f150       mexIsLocked                0000000180010150 f   libmex:libmex.dll
+ 0001:0000f156       utMalloc                   0000000180010156 f   libut:libut.dll
+ 0001:0000f15c       utFree                     000000018001015c f   libut:libut.dll
+ 0001:0000f162       muDoubleScalarAbs          0000000180010162 f   libmwmathutil:libmwmathutil.dll
+ 0001:0000f168       muDoubleScalarSign         0000000180010168 f   libmwmathutil:libmwmathutil.dll
+ 0001:0000f16e       muDoubleScalarSqrt         000000018001016e f   libmwmathutil:libmwmathutil.dll
+ 0001:0000f174       __raise_securityfailure    0000000180010174 f   MSVCRT:gs_report.obj
+ 0001:0000f1c0       __report_gsfailure         00000001800101c0 f   MSVCRT:gs_report.obj
+ 0001:0000f294       __report_rangecheckfailure 0000000180010294 f   MSVCRT:gs_report.obj
+ 0001:0000f2a8       __report_securityfailure   00000001800102a8 f   MSVCRT:gs_report.obj
+ 0001:0000f344       __report_securityfailureEx 0000000180010344 f   MSVCRT:gs_report.obj
+ 0001:0000f452       strcmp                     0000000180010452 f   MSVCRT:MSVCR110.dll
+ 0001:0000f458       __GSHandlerCheck           0000000180010458 f   MSVCRT:gshandler.obj
+ 0001:0000f478       __GSHandlerCheckCommon     0000000180010478 f   MSVCRT:gshandler.obj
+ 0001:0000f4f0       __security_check_cookie    00000001800104f0 f   MSVCRT:amdsecgs.obj
+ 0001:0000f510       memset                     0000000180010510 f   MSVCRT:MSVCR110.dll
+ 0001:0000f516       strlen                     0000000180010516 f   MSVCRT:MSVCR110.dll
+ 0001:0000f51c       memcpy                     000000018001051c f   MSVCRT:MSVCR110.dll
+ 0001:0000f522       strcat                     0000000180010522 f   MSVCRT:MSVCR110.dll
+ 0001:0000f528       sprintf                    0000000180010528 f   MSVCRT:MSVCR110.dll
+ 0001:0000f52e       free                       000000018001052e f   MSVCRT:MSVCR110.dll
+ 0001:0000f534       malloc                     0000000180010534 f   MSVCRT:MSVCR110.dll
+ 0001:0000f59c       NtCurrentTeb               000000018001059c f i MSVCRT:crtdll.obj
+ 0001:0000f5a8       _CRT_INIT                  00000001800105a8 f   MSVCRT:crtdll.obj
+ 0001:0000f7f4       _DllMainCRTStartup         00000001800107f4 f   MSVCRT:crtdll.obj
+ 0001:0000f96a       __crt_debugger_hook        000000018001096a f   MSVCRT:MSVCR110.dll
+ 0001:0000f970       __crtUnhandledException    0000000180010970 f   MSVCRT:MSVCR110.dll
+ 0001:0000f976       __crtTerminateProcess      0000000180010976 f   MSVCRT:MSVCR110.dll
+ 0001:0000f97c       __crtCaptureCurrentContext 000000018001097c f   MSVCRT:MSVCR110.dll
+ 0001:0000f982       __crtCapturePreviousContext 0000000180010982 f   MSVCRT:MSVCR110.dll
+ 0001:0000f988       __CppXcptFilter            0000000180010988 f   MSVCRT:MSVCR110.dll
+ 0001:0000f98e       _amsg_exit                 000000018001098e f   MSVCRT:MSVCR110.dll
+ 0001:0000f9a0       _FindPESection             00000001800109a0 f   MSVCRT:pesect.obj
+ 0001:0000f9f0       _IsNonwritableInCurrentImage 00000001800109f0 f   MSVCRT:pesect.obj
+ 0001:0000fa40       _ValidateImageBase         0000000180010a40 f   MSVCRT:pesect.obj
+ 0001:0000fa70       __atonexitinit             0000000180010a70 f   MSVCRT:atonexit.obj
+ 0001:0000fac0       _onexit                    0000000180010ac0 f   MSVCRT:atonexit.obj
+ 0001:0000fb70       atexit                     0000000180010b70 f   MSVCRT:atonexit.obj
+ 0001:0000fb88       __security_init_cookie     0000000180010b88 f   MSVCRT:gs_support.obj
+ 0001:0000fc40       DllMain                    0000000180010c40 f   MSVCRT:dllmain.obj
+ 0001:0000fc64       _malloc_crt                0000000180010c64 f   MSVCRT:MSVCR110.dll
+ 0001:0000fc6c       _RTC_Initialize            0000000180010c6c f   MSVCRT:initsect.obj
+ 0001:0000fca4       _RTC_Terminate             0000000180010ca4 f   MSVCRT:initsect.obj
+ 0001:0000fcdc       _initterm                  0000000180010cdc f   MSVCRT:MSVCR110.dll
+ 0001:0000fce2       _initterm_e                0000000180010ce2 f   MSVCRT:MSVCR110.dll
+ 0001:0000fce8       __clean_type_info_names    0000000180010ce8 f   MSVCRT:tncleanup.obj
+ 0001:0000fcf4       __C_specific_handler       0000000180010cf4 f   MSVCRT:MSVCR110.dll
+ 0001:0000fcfa       _lock                      0000000180010cfa f   MSVCRT:MSVCR110.dll
+ 0001:0000fd00       _unlock                    0000000180010d00 f   MSVCRT:MSVCR110.dll
+ 0001:0000fd06       _calloc_crt                0000000180010d06 f   MSVCRT:MSVCR110.dll
+ 0001:0000fd0c       __dllonexit                0000000180010d0c f   MSVCRT:MSVCR110.dll
+ 0001:0000fd12       __clean_type_info_names_internal 0000000180010d12 f   MSVCRT:MSVCR110.dll
+ 0001:0000fd18       IsDebuggerPresent          0000000180010d18 f   kernel32:KERNEL32.dll
+ 0001:0000fd1e       IsProcessorFeaturePresent  0000000180010d1e f   kernel32:KERNEL32.dll
+ 0001:0000fd24       EncodePointer              0000000180010d24 f   kernel32:KERNEL32.dll
+ 0001:0000fd2a       DecodePointer              0000000180010d2a f   kernel32:KERNEL32.dll
+ 0001:0000fd30       QueryPerformanceCounter    0000000180010d30 f   kernel32:KERNEL32.dll
+ 0001:0000fd36       GetCurrentThreadId         0000000180010d36 f   kernel32:KERNEL32.dll
+ 0001:0000fd3c       GetSystemTimeAsFileTime    0000000180010d3c f   kernel32:KERNEL32.dll
+ 0001:0000fd42       GetTickCount64             0000000180010d42 f   kernel32:KERNEL32.dll
+ 0001:0000fd48       DisableThreadLibraryCalls  0000000180010d48 f   kernel32:KERNEL32.dll
+ 0002:00000000       __imp_DisableThreadLibraryCalls 0000000180011000     kernel32:KERNEL32.dll
+ 0002:00000008       __imp_GetTickCount64       0000000180011008     kernel32:KERNEL32.dll
+ 0002:00000010       __imp_GetSystemTimeAsFileTime 0000000180011010     kernel32:KERNEL32.dll
+ 0002:00000018       __imp_GetCurrentThreadId   0000000180011018     kernel32:KERNEL32.dll
+ 0002:00000020       __imp_QueryPerformanceCounter 0000000180011020     kernel32:KERNEL32.dll
+ 0002:00000028       __imp_DecodePointer        0000000180011028     kernel32:KERNEL32.dll
+ 0002:00000030       __imp_EncodePointer        0000000180011030     kernel32:KERNEL32.dll
+ 0002:00000038       __imp_IsProcessorFeaturePresent 0000000180011038     kernel32:KERNEL32.dll
+ 0002:00000040       __imp_IsDebuggerPresent    0000000180011040     kernel32:KERNEL32.dll
+ 0002:00000048       \177KERNEL32_NULL_THUNK_DATA 0000000180011048     kernel32:KERNEL32.dll
+ 0002:00000050       __imp___clean_type_info_names_internal 0000000180011050     MSVCRT:MSVCR110.dll
+ 0002:00000058       __imp__onexit              0000000180011058     MSVCRT:MSVCR110.dll
+ 0002:00000060       __imp___dllonexit          0000000180011060     MSVCRT:MSVCR110.dll
+ 0002:00000068       __imp__calloc_crt          0000000180011068     MSVCRT:MSVCR110.dll
+ 0002:00000070       __imp__unlock              0000000180011070     MSVCRT:MSVCR110.dll
+ 0002:00000078       __imp__lock                0000000180011078     MSVCRT:MSVCR110.dll
+ 0002:00000080       __imp___C_specific_handler 0000000180011080     MSVCRT:MSVCR110.dll
+ 0002:00000088       __imp__initterm_e          0000000180011088     MSVCRT:MSVCR110.dll
+ 0002:00000090       __imp__initterm            0000000180011090     MSVCRT:MSVCR110.dll
+ 0002:00000098       __imp__malloc_crt          0000000180011098     MSVCRT:MSVCR110.dll
+ 0002:000000a0       __imp__amsg_exit           00000001800110a0     MSVCRT:MSVCR110.dll
+ 0002:000000a8       __imp___CppXcptFilter      00000001800110a8     MSVCRT:MSVCR110.dll
+ 0002:000000b0       __imp___crtCapturePreviousContext 00000001800110b0     MSVCRT:MSVCR110.dll
+ 0002:000000b8       __imp___crtCaptureCurrentContext 00000001800110b8     MSVCRT:MSVCR110.dll
+ 0002:000000c0       __imp___crtTerminateProcess 00000001800110c0     MSVCRT:MSVCR110.dll
+ 0002:000000c8       __imp___crtUnhandledException 00000001800110c8     MSVCRT:MSVCR110.dll
+ 0002:000000d0       __imp___crt_debugger_hook  00000001800110d0     MSVCRT:MSVCR110.dll
+ 0002:000000d8       __imp_malloc               00000001800110d8     MSVCRT:MSVCR110.dll
+ 0002:000000e0       __imp_free                 00000001800110e0     MSVCRT:MSVCR110.dll
+ 0002:000000e8       __imp_sprintf              00000001800110e8     MSVCRT:MSVCR110.dll
+ 0002:000000f0       __imp_strcat               00000001800110f0     MSVCRT:MSVCR110.dll
+ 0002:000000f8       __imp_memcpy               00000001800110f8     MSVCRT:MSVCR110.dll
+ 0002:00000100       __imp_strlen               0000000180011100     MSVCRT:MSVCR110.dll
+ 0002:00000108       __imp_memset               0000000180011108     MSVCRT:MSVCR110.dll
+ 0002:00000110       __imp_strcmp               0000000180011110     MSVCRT:MSVCR110.dll
+ 0002:00000118       \177MSVCR110_NULL_THUNK_DATA 0000000180011118     MSVCRT:MSVCR110.dll
+ 0002:00000120       __imp_mexUnlock            0000000180011120     libmex:libmex.dll
+ 0002:00000128       __imp_mexErrMsgTxt         0000000180011128     libmex:libmex.dll
+ 0002:00000130       __imp_mexWarnMsgTxt        0000000180011130     libmex:libmex.dll
+ 0002:00000138       __imp_mexCallMATLABWithObject 0000000180011138     libmex:libmex.dll
+ 0002:00000140       __imp_mexIsLocked          0000000180011140     libmex:libmex.dll
+ 0002:00000148       __imp_mexMakeArrayPersistent 0000000180011148     libmex:libmex.dll
+ 0002:00000150       __imp_mexLock              0000000180011150     libmex:libmex.dll
+ 0002:00000158       \177libmex_NULL_THUNK_DATA 0000000180011158     libmex:libmex.dll
+ 0002:00000160       __imp_muDoubleScalarSign   0000000180011160     libmwmathutil:libmwmathutil.dll
+ 0002:00000168       __imp_muDoubleScalarSqrt   0000000180011168     libmwmathutil:libmwmathutil.dll
+ 0002:00000170       __imp_muDoubleScalarAbs    0000000180011170     libmwmathutil:libmwmathutil.dll
+ 0002:00000178       \177libmwmathutil_NULL_THUNK_DATA 0000000180011178     libmwmathutil:libmwmathutil.dll
+ 0002:00000180       __imp_mxGetN               0000000180011180     libmx:libmx.dll
+ 0002:00000188       __imp_mxIsComplex          0000000180011188     libmx:libmx.dll
+ 0002:00000190       __imp_mxIsNumeric          0000000180011190     libmx:libmx.dll
+ 0002:00000198       __imp_mxGetClassID         0000000180011198     libmx:libmx.dll
+ 0002:000001a0       __imp_mxGetM               00000001800111a0     libmx:libmx.dll
+ 0002:000001a8       __imp_mxCalloc             00000001800111a8     libmx:libmx.dll
+ 0002:000001b0       __imp_mxCreateStructArray_730 00000001800111b0     libmx:libmx.dll
+ 0002:000001b8       __imp_mxCreateStructMatrix_730 00000001800111b8     libmx:libmx.dll
+ 0002:000001c0       __imp_mxCreateCellArray_730 00000001800111c0     libmx:libmx.dll
+ 0002:000001c8       __imp_mxCreateCellMatrix_730 00000001800111c8     libmx:libmx.dll
+ 0002:000001d0       __imp_mxCreateString       00000001800111d0     libmx:libmx.dll
+ 0002:000001d8       __imp_mxCreateDoubleScalar 00000001800111d8     libmx:libmx.dll
+ 0002:000001e0       __imp_mxSetField_730       00000001800111e0     libmx:libmx.dll
+ 0002:000001e8       __imp_mxDuplicateArray     00000001800111e8     libmx:libmx.dll
+ 0002:000001f0       __imp_mxGetString_730      00000001800111f0     libmx:libmx.dll
+ 0002:000001f8       __imp_mxIsChar             00000001800111f8     libmx:libmx.dll
+ 0002:00000200       __imp_mxGetPr              0000000180011200     libmx:libmx.dll
+ 0002:00000208       __imp_mxGetScalar          0000000180011208     libmx:libmx.dll
+ 0002:00000210       __imp_mxDestroyArray       0000000180011210     libmx:libmx.dll
+ 0002:00000218       __imp_mxCreateDoubleMatrix_730 0000000180011218     libmx:libmx.dll
+ 0002:00000220       __imp_mxCreateLogicalScalar 0000000180011220     libmx:libmx.dll
+ 0002:00000228       \177libmx_NULL_THUNK_DATA  0000000180011228     libmx:libmx.dll
+ 0002:00000230       __imp_utMalloc             0000000180011230     libut:libut.dll
+ 0002:00000238       __imp_utFree               0000000180011238     libut:libut.dll
+ 0002:00000240       \177libut_NULL_THUNK_DATA  0000000180011240     libut:libut.dll
+ 0002:00000248       __imp_sf_debug_create_debug_instance_struct 0000000180011248     sf_runtime:sf_runtime.dll
+ 0002:00000250       __imp_sf_clear_error_manager_info 0000000180011250     sf_runtime:sf_runtime.dll
+ 0002:00000258       __imp_sf_mex_error_direct_call 0000000180011258     sf_runtime:sf_runtime.dll
+ 0002:00000260       __imp_call_sf_machine_global_method_dispatcher 0000000180011260     sf_runtime:sf_runtime.dll
+ 0002:00000268       __imp_callMdlMethodAndReportError 0000000180011268     sf_runtime:sf_runtime.dll
+ 0002:00000270       __imp_sf_debug_cv_init_state 0000000180011270     sf_runtime:sf_runtime.dll
+ 0002:00000278       __imp_sf_debug_cv_init_chart 0000000180011278     sf_runtime:sf_runtime.dll
+ 0002:00000280       __imp_sf_debug_cv_init_trans 0000000180011280     sf_runtime:sf_runtime.dll
+ 0002:00000288       __imp_sf_debug_data_range_wrapper 0000000180011288     sf_runtime:sf_runtime.dll
+ 0002:00000290       __imp_sf_debug_set_chart_substate_count 0000000180011290     sf_runtime:sf_runtime.dll
+ 0002:00000298       __imp_sf_debug_terminate   0000000180011298     sf_runtime:sf_runtime.dll
+ 0002:000002a0       __imp_sf_debug_set_chart_state_info 00000001800112a0     sf_runtime:sf_runtime.dll
+ 0002:000002a8       __imp_sf_debug_set_chart_event_thresholds 00000001800112a8     sf_runtime:sf_runtime.dll
+ 0002:000002b0       __imp_sf_debug_set_chart_disable_implicit_casting 00000001800112b0     sf_runtime:sf_runtime.dll
+ 0002:000002b8       __imp_sf_debug_set_instance_data_value_ptr 00000001800112b8     sf_runtime:sf_runtime.dll
+ 0002:000002c0       __imp_sf_debug_symbol_scope_add_eml_importable 00000001800112c0     sf_runtime:sf_runtime.dll
+ 0002:000002c8       __imp_sf_debug_symbol_scope_add_eml 00000001800112c8     sf_runtime:sf_runtime.dll
+ 0002:000002d0       __imp_sf_debug_symbol_scope_pop 00000001800112d0     sf_runtime:sf_runtime.dll
+ 0002:000002d8       __imp_sf_debug_symbol_scope_push_eml 00000001800112d8     sf_runtime:sf_runtime.dll
+ 0002:000002e0       __imp_sf_debug_symbol_scope_push 00000001800112e0     sf_runtime:sf_runtime.dll
+ 0002:000002e8       __imp_sf_debug_set_chart_data_compiled_props 00000001800112e8     sf_runtime:sf_runtime.dll
+ 0002:000002f0       __imp_sf_debug_api         00000001800112f0     sf_runtime:sf_runtime.dll
+ 0002:000002f8       __imp_sf_debug_set_chart_decomposition 00000001800112f8     sf_runtime:sf_runtime.dll
+ 0002:00000300       __imp_sf_debug_set_chart_data_props 0000000180011300     sf_runtime:sf_runtime.dll
+ 0002:00000308       __imp_sf_debug_check_for_state_inconsistency 0000000180011308     sf_runtime:sf_runtime.dll
+ 0002:00000310       __imp_sf_debug_reset_current_state_configuration 0000000180011310     sf_runtime:sf_runtime.dll
+ 0002:00000318       __imp_cv_eml_init_fcn      0000000180011318     sf_runtime:sf_runtime.dll
+ 0002:00000320       __imp_cv_eml_init_script   0000000180011320     sf_runtime:sf_runtime.dll
+ 0002:00000328       __imp_cv_eml_eval          0000000180011328     sf_runtime:sf_runtime.dll
+ 0002:00000330       __imp_eml_debug_line_call  0000000180011330     sf_runtime:sf_runtime.dll
+ 0002:00000338       __imp_sf_debug_call        0000000180011338     sf_runtime:sf_runtime.dll
+ 0002:00000340       __imp_sf_debug_initialize_chart 0000000180011340     sf_runtime:sf_runtime.dll
+ 0002:00000348       __imp_ssGetOutputPortSignal_wrapper 0000000180011348     sf_runtime:sf_runtime.dll
+ 0002:00000350       __imp_ssGetInputPortSignal_wrapper 0000000180011350     sf_runtime:sf_runtime.dll
+ 0002:00000358       __imp_sf_mex_emlrtNameCapturePostProcessR2012a 0000000180011358     sf_runtime:sf_runtime.dll
+ 0002:00000360       __imp_sf_mex_duplicatearraysafe 0000000180011360     sf_runtime:sf_runtime.dll
+ 0002:00000368       __imp_sf_mex_decode_encoded_mx_struct_array 0000000180011368     sf_runtime:sf_runtime.dll
+ 0002:00000370       __imp_sf_mex_import        0000000180011370     sf_runtime:sf_runtime.dll
+ 0002:00000378       __imp_sf_mex_destroy       0000000180011378     sf_runtime:sf_runtime.dll
+ 0002:00000380       __imp_sf_mex_dup           0000000180011380     sf_runtime:sf_runtime.dll
+ 0002:00000388       __imp_sf_mex_assign        0000000180011388     sf_runtime:sf_runtime.dll
+ 0002:00000390       __imp_sf_mex_getcell       0000000180011390     sf_runtime:sf_runtime.dll
+ 0002:00000398       __imp_sf_mex_setcell       0000000180011398     sf_runtime:sf_runtime.dll
+ 0002:000003a0       __imp_sf_mex_createcellmatrix 00000001800113a0     sf_runtime:sf_runtime.dll
+ 0002:000003a8       __imp_sf_mex_create        00000001800113a8     sf_runtime:sf_runtime.dll
+ 0002:000003b0       __imp_sf_mex_createstruct  00000001800113b0     sf_runtime:sf_runtime.dll
+ 0002:000003b8       __imp_sf_mex_addfield      00000001800113b8     sf_runtime:sf_runtime.dll
+ 0002:000003c0       __imp_sf_mex_error_message 00000001800113c0     sf_runtime:sf_runtime.dll
+ 0002:000003c8       __imp_sf_mex_call_debug    00000001800113c8     sf_runtime:sf_runtime.dll
+ 0002:000003d0       __imp_sf_get_time          00000001800113d0     sf_runtime:sf_runtime.dll
+ 0002:000003d8       __imp_sf_set_rtw_dwork_info 00000001800113d8     sf_runtime:sf_runtime.dll
+ 0002:000003e0       __imp_sf_clear_rtw_identifier 00000001800113e0     sf_runtime:sf_runtime.dll
+ 0002:000003e8       __imp_sim_mode_is_external 00000001800113e8     sf_runtime:sf_runtime.dll
+ 0002:000003f0       __imp_sim_mode_is_rtw_gen  00000001800113f0     sf_runtime:sf_runtime.dll
+ 0002:000003f8       __imp_sf_mark_chart_expressionable_inputs 00000001800113f8     sf_runtime:sf_runtime.dll
+ 0002:00000400       __imp_sf_mark_chart_reusable_outputs 0000000180011400     sf_runtime:sf_runtime.dll
+ 0002:00000408       __imp_sf_is_chart_inlinable 0000000180011408     sf_runtime:sf_runtime.dll
+ 0002:00000410       __imp_sf_update_buildInfo  0000000180011410     sf_runtime:sf_runtime.dll
+ 0002:00000418       __imp_sf_rtw_info_uint_prop 0000000180011418     sf_runtime:sf_runtime.dll
+ 0002:00000420       __imp_sf_debug_set_machine_data_thresholds 0000000180011420     sf_runtime:sf_runtime.dll
+ 0002:00000428       __imp_sf_debug_set_machine_event_thresholds 0000000180011428     sf_runtime:sf_runtime.dll
+ 0002:00000430       __imp_sf_debug_initialize_machine 0000000180011430     sf_runtime:sf_runtime.dll
+ 0002:00000438       __imp_sf_load_rtw_optimization_info 0000000180011438     sf_runtime:sf_runtime.dll
+ 0002:00000440       \177sf_runtime_NULL_THUNK_DATA 0000000180011440     sf_runtime:sf_runtime.dll
+ 0002:00000448       __xc_a                     0000000180011448     MSVCRT:cinitexe.obj
+ 0002:00000450       __xc_z                     0000000180011450     MSVCRT:cinitexe.obj
+ 0002:00000458       __xi_a                     0000000180011458     MSVCRT:cinitexe.obj
+ 0002:00000470       __xi_z                     0000000180011470     MSVCRT:cinitexe.obj
+ 0002:00000480       __real@41c67984c2800000    0000000180011480     kamasample1_sfun.obj
+ 0002:00000488       __real@41c72bb219000000    0000000180011488     kamasample1_sfun.obj
+ 0002:00000490       __real@41db183037400000    0000000180011490     kamasample1_sfun.obj
+ 0002:00000498       __real@41ddae3573400000    0000000180011498     kamasample1_sfun.obj
+ 0002:000004a0       __real@41e0baf60a000000    00000001800114a0     kamasample1_sfun.obj
+ 0002:000004a8       __real@41e1914a24400000    00000001800114a8     kamasample1_sfun.obj
+ 0002:000004b0       __real@41e292a94fa00000    00000001800114b0     kamasample1_sfun.obj
+ 0002:000004b8       __real@41e4cd8b0e800000    00000001800114b8     kamasample1_sfun.obj
+ 0002:000004c0       __real@41e6cf0aa2400000    00000001800114c0     kamasample1_sfun.obj
+ 0002:000004c8       __real@41e824f0c0200000    00000001800114c8     kamasample1_sfun.obj
+ 0002:000004d0       __real@41e82ee37bc00000    00000001800114d0     kamasample1_sfun.obj
+ 0002:000004d8       __real@41e89e33f6000000    00000001800114d8     kamasample1_sfun.obj
+ 0002:000004e0       __real@41ea3658ed600000    00000001800114e0     kamasample1_sfun.obj
+ 0002:000004e8       __real@41ead1319ec00000    00000001800114e8     kamasample1_sfun.obj
+ 0002:000004f0       __real@41ecb1f033200000    00000001800114f0     kamasample1_sfun.obj
+ 0002:000004f8       __real@41eda30fd3200000    00000001800114f8     kamasample1_sfun.obj
+ 0002:00000500       __real@3fe0000000000000    0000000180011500     c2_kamasample1.obj
+ 0002:00000508       __real@3ff0000000000000    0000000180011508     c2_kamasample1.obj
+ 0002:00000510       __real@4014000000000000    0000000180011510     c2_kamasample1.obj
+ 0002:00000518       __real@4020000000000000    0000000180011518     c2_kamasample1.obj
+ 0002:00000520       __real@4024000000000000    0000000180011520     c2_kamasample1.obj
+ 0002:00000528       __real@41c011cf90800000    0000000180011528     c2_kamasample1.obj
+ 0002:00000530       __real@41cce165da000000    0000000180011530     c2_kamasample1.obj
+ 0002:00000538       __real@41e1987a6b600000    0000000180011538     c2_kamasample1.obj
+ 0002:00000540       __real@41eb4f877fa00000    0000000180011540     c2_kamasample1.obj
+ 0002:00000550       __xmm@80000000000000008000000000000000 0000000180011550     c2_kamasample1.obj
+ 0002:00000560       DYNAMIC_DIMENSION_DEF      0000000180011560     kamasample1_sfun_registry.obj
+ 0002:00000580       _ssBadLevel2InputAccessMsg 0000000180011580     kamasample1_sfun_registry.obj
+ 0002:00000710       _ssBadLevel2DirectFeedMsg  0000000180011710     kamasample1_sfun_registry.obj
+ 0002:00000850       _ssBadLevel2DirectFeedSolutionMsg 0000000180011850     kamasample1_sfun_registry.obj
+ 0002:000008c0       _ssBadLevel2ZeroDirectFeedMsg 00000001800118c0     kamasample1_sfun_registry.obj
+ 0002:00000a00       _ssBadLevel2ZeroDirectFeedMsg2 0000000180011a00     kamasample1_sfun_registry.obj
+ 0002:00000ae8       __real@0000000000000000    0000000180011ae8     kamasample1_sfun_registry.obj
+ 0002:00000af0       __real@41602cbca0000000    0000000180011af0     kamasample1_sfun_registry.obj
+ 0002:00000af8       __real@bff0000000000000    0000000180011af8     kamasample1_sfun_registry.obj
+ 0002:00000b10       _pRawDllMain               0000000180011b10     MSVCRT:crtdll.obj
+ 0002:00000b10       _pDefaultRawDllMain        0000000180011b10     MSVCRT:crtdll.obj
+ 0002:00000b18       ?ProcessDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180011b18     MSVCRT:initsect.obj
+ 0002:00000b1c       ?ProcessAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180011b1c     MSVCRT:initsect.obj
+ 0002:00000b20       ?ThreadAttach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180011b20     MSVCRT:initsect.obj
+ 0002:00000b24       ?ThreadDetach@NativeDll@<CrtImplementationDetails>@@0IB 0000000180011b24     MSVCRT:initsect.obj
+ 0002:00000b28       ?ProcessVerifier@NativeDll@<CrtImplementationDetails>@@0IB 0000000180011b28     MSVCRT:initsect.obj
+ 0002:00000b2c       ?value@?$integral_constant@_N$0A@@std@@2_NB 0000000180011b2c     MSVCRT:tncleanup.obj
+ 0002:00000b2d       ?value@?$integral_constant@_N$00@std@@2_NB 0000000180011b2d     MSVCRT:tncleanup.obj
+ 0002:00000b30       ?value@?$_Sizeof@U_Nil@std@@U12@U12@U12@U12@U12@U12@U12@@std@@2_KB 0000000180011b30     MSVCRT:tncleanup.obj
+ 0002:00000b40       _load_config_used          0000000180011b40     MSVCRT:loadcfg.obj
+ 0002:00000bb0       __rtc_iaa                  0000000180011bb0     MSVCRT:initsect.obj
+ 0002:00000bb8       __rtc_izz                  0000000180011bb8     MSVCRT:initsect.obj
+ 0002:00000bc0       __rtc_taa                  0000000180011bc0     MSVCRT:initsect.obj
+ 0002:00000bc8       __rtc_tzz                  0000000180011bc8     MSVCRT:initsect.obj
+ 0002:0000129c       __IMPORT_DESCRIPTOR_sf_runtime 000000018001229c     sf_runtime:sf_runtime.dll
+ 0002:000012b0       __IMPORT_DESCRIPTOR_libmx  00000001800122b0     libmx:libmx.dll
+ 0002:000012c4       __IMPORT_DESCRIPTOR_libmex 00000001800122c4     libmex:libmex.dll
+ 0002:000012d8       __IMPORT_DESCRIPTOR_libut  00000001800122d8     libut:libut.dll
+ 0002:000012ec       __IMPORT_DESCRIPTOR_libmwmathutil 00000001800122ec     libmwmathutil:libmwmathutil.dll
+ 0002:00001300       __IMPORT_DESCRIPTOR_MSVCR110 0000000180012300     MSVCRT:MSVCR110.dll
+ 0002:00001314       __IMPORT_DESCRIPTOR_KERNEL32 0000000180012314     kernel32:KERNEL32.dll
+ 0002:00001328       __NULL_IMPORT_DESCRIPTOR   0000000180012328     sf_runtime:sf_runtime.dll
+ 0003:00002598       DYNAMIC_DIMENSION          0000000180016598     kamasample1_sfun_registry.obj
+ 0003:00003290       __security_cookie          0000000180017290     MSVCRT:gs_cookie.obj
+ 0003:00003298       __security_cookie_complement 0000000180017298     MSVCRT:gs_cookie.obj
+ 0003:000032a0       _fltused                   00000001800172a0     MSVCRT:dllsupp.obj
+ 0003:000032a4       __native_dllmain_reason    00000001800172a4     MSVCRT:natstart.obj
+ 0003:000032d8       sfGlobalDebugInstanceStruct 00000001800172d8     kamasample1_sfun_registry.obj
+ 0003:00003938       ?__type_info_root_node@@3U__type_info_node@@A 0000000180017938     MSVCRT:tncleanup.obj
+ 0003:00003948       _kamasample1MachineNumber_ 0000000180017948     <common>
+ 0003:00003950       __native_startup_lock      0000000180017950     <common>
+ 0003:00003958       __native_startup_state     0000000180017958     <common>
+ 0003:00003960       __onexitend                0000000180017960     <common>
+ 0003:00003968       __onexitbegin              0000000180017968     <common>
+ 0003:00003970       __dyn_tls_init_callback    0000000180017970     <common>
+
+ entry point at        0001:0000f7f4
+
+ Static symbols
+
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     kernel32:KERNEL32.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     MSVCRT:MSVCR110.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmwmathutil:libmwmathutil.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     libut:libut.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmex:libmex.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     sf_runtime:sf_runtime.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0000:00000000       .debug$S                   0000000180000000     libmx:libmx.dll
+ 0001:000013e0       initialize_c2_kamasample1  00000001800023e0 f   c2_kamasample1.obj
+ 0001:00001430       initialize_params_c2_kamasample1 0000000180002430 f   c2_kamasample1.obj
+ 0001:00001440       enable_c2_kamasample1      0000000180002440 f   c2_kamasample1.obj
+ 0001:00001470       disable_c2_kamasample1     0000000180002470 f   c2_kamasample1.obj
+ 0001:000014a0       c2_update_debugger_state_c2_kamasample1 00000001800024a0 f   c2_kamasample1.obj
+ 0001:000014b0       get_sim_state_c2_kamasample1 00000001800024b0 f   c2_kamasample1.obj
+ 0001:00001640       set_sim_state_c2_kamasample1 0000000180002640 f   c2_kamasample1.obj
+ 0001:00001700       finalize_c2_kamasample1    0000000180002700 f   c2_kamasample1.obj
+ 0001:00001710       sf_gateway_c2_kamasample1  0000000180002710 f   c2_kamasample1.obj
+ 0001:00001a20       c2_chartstep_c2_kamasample1 0000000180002a20 f   c2_kamasample1.obj
+ 0001:00002820       initSimStructsc2_kamasample1 0000000180003820 f   c2_kamasample1.obj
+ 0001:00002830       init_script_number_translation 0000000180003830 f   c2_kamasample1.obj
+ 0001:00002850       c2_sf_marshallOut          0000000180003850 f   c2_kamasample1.obj
+ 0001:00002900       c2_emlrt_marshallIn        0000000180003900 f   c2_kamasample1.obj
+ 0001:00002970       c2_b_emlrt_marshallIn      0000000180003970 f   c2_kamasample1.obj
+ 0001:00002a00       c2_sf_marshallIn           0000000180003a00 f   c2_kamasample1.obj
+ 0001:00002aa0       c2_info_helper             0000000180003aa0 f   c2_kamasample1.obj
+ 0001:000058d0       c2_emlrt_marshallOut       00000001800068d0 f   c2_kamasample1.obj
+ 0001:00005960       c2_b_emlrt_marshallOut     0000000180006960 f   c2_kamasample1.obj
+ 0001:000059d0       c2_eml_error               00000001800069d0 f   c2_kamasample1.obj
+ 0001:00005bb0       c2_d_emlrt_marshallIn      0000000180006bb0 f   c2_kamasample1.obj
+ 0001:00005c10       c2_e_emlrt_marshallIn      0000000180006c10 f   c2_kamasample1.obj
+ 0001:00005ca0       init_dsm_address_info      0000000180006ca0 f   c2_kamasample1.obj
+ 0001:00005cb0       init_simulink_io_address   0000000180006cb0 f   c2_kamasample1.obj
+ 0001:00006930       sf_get_sim_state_info_c2_kamasample1 0000000180007930 f   c2_kamasample1.obj
+ 0001:00006a00       chart_debug_initialization 0000000180007a00 f   c2_kamasample1.obj
+ 0001:00007630       sf_get_instance_specialization 0000000180008630 f   c2_kamasample1.obj
+ 0001:00007640       sf_opaque_initialize_c2_kamasample1 0000000180008640 f   c2_kamasample1.obj
+ 0001:00007680       sf_opaque_enable_c2_kamasample1 0000000180008680 f   c2_kamasample1.obj
+ 0001:000076a0       sf_opaque_disable_c2_kamasample1 00000001800086a0 f   c2_kamasample1.obj
+ 0001:000076c0       sf_opaque_gateway_c2_kamasample1 00000001800086c0 f   c2_kamasample1.obj
+ 0001:000076e0       sf_opaque_get_sim_state_c2_kamasample1 00000001800086e0 f   c2_kamasample1.obj
+ 0001:00007730       sf_opaque_set_sim_state_c2_kamasample1 0000000180008730 f   c2_kamasample1.obj
+ 0001:00007780       sf_opaque_terminate_c2_kamasample1 0000000180008780 f   c2_kamasample1.obj
+ 0001:00007820       sf_opaque_init_subchart_simstructs 0000000180008820 f   c2_kamasample1.obj
+ 0001:00007840       mdlProcessParameters_c2_kamasample1 0000000180008840 f   c2_kamasample1.obj
+ 0001:00007920       mdlSetWorkWidths_c2_kamasample1 0000000180008920 f   c2_kamasample1.obj
+ 0001:00007f20       mdlRTW_c2_kamasample1      0000000180008f20 f   c2_kamasample1.obj
+ 0001:00007f60       mdlStart_c2_kamasample1    0000000180008f60 f   c2_kamasample1.obj
+ 0001:000092b4       $LN107                     000000018000a2b4     kamasample1_sfun_registry.obj
+ 0001:0000a5e4       $LN17                      000000018000b5e4     kamasample1_sfun_registry.obj
+ 0001:0000ab6c       $LN26                      000000018000bb6c     kamasample1_sfun_registry.obj
+ 0001:0000b254       $LN23                      000000018000c254     kamasample1_sfun_registry.obj
+ 0001:0000b830       $LN26                      000000018000c830     kamasample1_sfun_registry.obj
+ 0001:0000d6f0       sf_debug_api_wrapper       000000018000e6f0 f   kamasample1_sfun_registry.obj
+ 0001:0000d740       ProcessMexSfunctionCmdLineCall 000000018000e740 f   kamasample1_sfun_registry.obj
+ 0001:0000da70       getChartInfoFromSimStruct  000000018000ea70 f   kamasample1_sfun_registry.obj
+ 0001:0000db30       mdlSetWorkWidths           000000018000eb30 f   kamasample1_sfun_registry.obj
+ 0001:0000db60       mdlProcessParameters       000000018000eb60 f   kamasample1_sfun_registry.obj
+ 0001:0000db90       mdl_start_processing       000000018000eb90 f   kamasample1_sfun_registry.obj
+ 0001:0000dc50       mdl_terminate_processing   000000018000ec50 f   kamasample1_sfun_registry.obj
+ 0001:0000dcd0       mdlStart                   000000018000ecd0 f   kamasample1_sfun_registry.obj
+ 0001:0000dd00       mdlTerminate               000000018000ed00 f   kamasample1_sfun_registry.obj
+ 0001:0000dd30       mdlInitializeSizes         000000018000ed30 f   kamasample1_sfun_registry.obj
+ 0001:0000dd60       mdlInitializeSampleTimes   000000018000ed60 f   kamasample1_sfun_registry.obj
+ 0001:0000dd90       mdl_outputs_continuous_legacy 000000018000ed90 f   kamasample1_sfun_registry.obj
+ 0001:0000de90       mdl_outputs_processing     000000018000ee90 f   kamasample1_sfun_registry.obj
+ 0001:0000df90       mdl_zeroCrossings_processing 000000018000ef90 f   kamasample1_sfun_registry.obj
+ 0001:0000dfd0       mdlZeroCrossings           000000018000efd0 f   kamasample1_sfun_registry.obj
+ 0001:0000e000       mdl_derivatives_processing 000000018000f000 f   kamasample1_sfun_registry.obj
+ 0001:0000e050       mdlDerivatives             000000018000f050 f   kamasample1_sfun_registry.obj
+ 0001:0000e080       mdl_initialize_conditions_processing 000000018000f080 f   kamasample1_sfun_registry.obj
+ 0001:0000e0d0       mdlInitializeConditions    000000018000f0d0 f   kamasample1_sfun_registry.obj
+ 0001:0000e100       mdl_ext_mode_exec_processing 000000018000f100 f   kamasample1_sfun_registry.obj
+ 0001:0000e140       mdlExtModeExec             000000018000f140 f   kamasample1_sfun_registry.obj
+ 0001:0000e170       mdlRTW                     000000018000f170 f   kamasample1_sfun_registry.obj
+ 0001:0000e1b0       mdl_enable_processing      000000018000f1b0 f   kamasample1_sfun_registry.obj
+ 0001:0000e1f0       mdlEnable                  000000018000f1f0 f   kamasample1_sfun_registry.obj
+ 0001:0000e220       mdl_disable_processing     000000018000f220 f   kamasample1_sfun_registry.obj
+ 0001:0000e260       mdlDisable                 000000018000f260 f   kamasample1_sfun_registry.obj
+ 0001:0000e290       mdlOutputs                 000000018000f290 f   kamasample1_sfun_registry.obj
+ 0001:0000e460       mdlGetTimeOfNextVarHit     000000018000f460 f   kamasample1_sfun_registry.obj
+ 0001:0000e4b0       _RegNumInputPortsCB        000000018000f4b0 f   kamasample1_sfun_registry.obj
+ 0001:0000e530       _RegNumOutputPortsCB       000000018000f530 f   kamasample1_sfun_registry.obj
+ 0001:0000e5b0       _CreateSimStruct           000000018000f5b0 f   kamasample1_sfun_registry.obj
+ 0001:0000e740       _ssFatalError              000000018000f740 f   kamasample1_sfun_registry.obj
+ 0001:0000e7f0       _ProcessMexSfunctionCmdLineCall 000000018000f7f0 f   kamasample1_sfun_registry.obj
+ 0001:0000f4e0       $$000000                   00000001800104e0     MSVCRT:amdsecgs.obj
+ 0001:0000f53c       pre_c_init                 000000018001053c f   MSVCRT:crtdll.obj
+ 0001:0000f834       __DllMainCRTStartup        0000000180010834 f   MSVCRT:crtdll.obj
+ 0001:0000fd50       __DllMainCRTStartup$filt$0 0000000180010d50 f   MSVCRT:crtdll.obj
+ 0001:0000fd75       __DllMainCRTStartup$fin$1  0000000180010d75 f   MSVCRT:crtdll.obj
+ 0001:0000fd90       _IsNonwritableInCurrentImage$filt$0 0000000180010d90 f   MSVCRT:pesect.obj
+ 0001:0000fdb0       _onexit$fin$0              0000000180010db0 f   MSVCRT:atonexit.obj
+ 0002:00000460       pcinit                     0000000180011460     MSVCRT:crtdll.obj
+ 0002:00000468       pinit                      0000000180011468     MSVCRT:atonexit.obj
+ 0002:00000b00       GS_ExceptionPointers       0000000180011b00     MSVCRT:gs_report.obj
+ 0002:00000bd0       $unwind$load_kamasample1_optimization_info 0000000180011bd0     kamasample1_sfun.obj
+ 0002:00000bd8       $unwind$unload_kamasample1_optimization_info 0000000180011bd8     kamasample1_sfun.obj
+ 0002:00000be0       $unwind$sf_kamasample1_method_dispatcher 0000000180011be0     kamasample1_sfun.obj
+ 0002:00000be8       $unwind$sf_kamasample1_uses_exported_functions 0000000180011be8     kamasample1_sfun.obj
+ 0002:00000bf0       $unwind$sf_kamasample1_process_check_sum_call 0000000180011bf0     kamasample1_sfun.obj
+ 0002:00000c00       $unwind$sf_kamasample1_autoinheritance_info 0000000180011c00     kamasample1_sfun.obj
+ 0002:00000c10       $unwind$sf_kamasample1_get_eml_resolved_functions_info 0000000180011c10     kamasample1_sfun.obj
+ 0002:00000c20       $unwind$sf_kamasample1_third_party_uses_info 0000000180011c20     kamasample1_sfun.obj
+ 0002:00000c30       $unwind$sf_kamasample1_jit_fallback_info 0000000180011c30     kamasample1_sfun.obj
+ 0002:00000c40       $unwind$sf_kamasample1_updateBuildInfo_args_info 0000000180011c40     kamasample1_sfun.obj
+ 0002:00000c50       $unwind$sf_kamasample1_get_post_codegen_info 0000000180011c50     kamasample1_sfun.obj
+ 0002:00000c60       $unwind$kamasample1_debug_initialize 0000000180011c60     kamasample1_sfun.obj
+ 0002:00000c68       $unwind$sf_c2_kamasample1_get_eml_resolved_functions_info 0000000180011c68     c2_kamasample1.obj
+ 0002:00000c70       $unwind$sf_c2_kamasample1_get_check_sum 0000000180011c70     c2_kamasample1.obj
+ 0002:00000c78       $unwind$c2_kamasample1_method_dispatcher 0000000180011c78     c2_kamasample1.obj
+ 0002:00000c80       $unwind$initialize_c2_kamasample1 0000000180011c80     c2_kamasample1.obj
+ 0002:00000c88       $unwind$enable_c2_kamasample1 0000000180011c88     c2_kamasample1.obj
+ 0002:00000c90       $unwind$disable_c2_kamasample1 0000000180011c90     c2_kamasample1.obj
+ 0002:00000c98       $unwind$get_sim_state_c2_kamasample1 0000000180011c98     c2_kamasample1.obj
+ 0002:00000ca0       $unwind$set_sim_state_c2_kamasample1 0000000180011ca0     c2_kamasample1.obj
+ 0002:00000ca8       $unwind$sf_gateway_c2_kamasample1 0000000180011ca8     c2_kamasample1.obj
+ 0002:00000cb0       $unwind$c2_chartstep_c2_kamasample1 0000000180011cb0     c2_kamasample1.obj
+ 0002:00000cc0       $unwind$c2_sf_marshallOut  0000000180011cc0     c2_kamasample1.obj
+ 0002:00000cc8       $unwind$c2_emlrt_marshallIn 0000000180011cc8     c2_kamasample1.obj
+ 0002:00000cd0       $unwind$c2_b_emlrt_marshallIn 0000000180011cd0     c2_kamasample1.obj
+ 0002:00000cd8       $unwind$c2_sf_marshallIn   0000000180011cd8     c2_kamasample1.obj
+ 0002:00000ce0       $unwind$c2_info_helper     0000000180011ce0     c2_kamasample1.obj
+ 0002:00000ce8       $unwind$c2_emlrt_marshallOut 0000000180011ce8     c2_kamasample1.obj
+ 0002:00000cf0       $unwind$c2_b_emlrt_marshallOut 0000000180011cf0     c2_kamasample1.obj
+ 0002:00000cf8       $unwind$c2_eml_error       0000000180011cf8     c2_kamasample1.obj
+ 0002:00000d08       $unwind$c2_d_emlrt_marshallIn 0000000180011d08     c2_kamasample1.obj
+ 0002:00000d10       $unwind$c2_e_emlrt_marshallIn 0000000180011d10     c2_kamasample1.obj
+ 0002:00000d18       $unwind$init_simulink_io_address 0000000180011d18     c2_kamasample1.obj
+ 0002:00000d20       $unwind$sf_c2_kamasample1_get_post_codegen_info 0000000180011d20     c2_kamasample1.obj
+ 0002:00000d28       $unwind$sf_c2_kamasample1_get_autoinheritance_info 0000000180011d28     c2_kamasample1.obj
+ 0002:00000d30       $unwind$sf_c2_kamasample1_third_party_uses_info 0000000180011d30     c2_kamasample1.obj
+ 0002:00000d38       $unwind$sf_c2_kamasample1_jit_fallback_info 0000000180011d38     c2_kamasample1.obj
+ 0002:00000d40       $unwind$sf_c2_kamasample1_updateBuildInfo_args_info 0000000180011d40     c2_kamasample1.obj
+ 0002:00000d48       $unwind$sf_get_sim_state_info_c2_kamasample1 0000000180011d48     c2_kamasample1.obj
+ 0002:00000d50       $unwind$chart_debug_initialization 0000000180011d50     c2_kamasample1.obj
+ 0002:00000d58       $unwind$sf_opaque_initialize_c2_kamasample1 0000000180011d58     c2_kamasample1.obj
+ 0002:00000d60       $unwind$sf_opaque_enable_c2_kamasample1 0000000180011d60     c2_kamasample1.obj
+ 0002:00000d68       $unwind$sf_opaque_disable_c2_kamasample1 0000000180011d68     c2_kamasample1.obj
+ 0002:00000d70       $unwind$sf_opaque_gateway_c2_kamasample1 0000000180011d70     c2_kamasample1.obj
+ 0002:00000d78       $unwind$sf_opaque_get_sim_state_c2_kamasample1 0000000180011d78     c2_kamasample1.obj
+ 0002:00000d80       $unwind$sf_opaque_set_sim_state_c2_kamasample1 0000000180011d80     c2_kamasample1.obj
+ 0002:00000d88       $unwind$sf_opaque_terminate_c2_kamasample1 0000000180011d88     c2_kamasample1.obj
+ 0002:00000d90       $unwind$sf_opaque_init_subchart_simstructs 0000000180011d90     c2_kamasample1.obj
+ 0002:00000d98       $unwind$mdlProcessParameters_c2_kamasample1 0000000180011d98     c2_kamasample1.obj
+ 0002:00000da0       $unwind$mdlSetWorkWidths_c2_kamasample1 0000000180011da0     c2_kamasample1.obj
+ 0002:00000da8       $unwind$mdlRTW_c2_kamasample1 0000000180011da8     c2_kamasample1.obj
+ 0002:00000db0       $unwind$mdlStart_c2_kamasample1 0000000180011db0     c2_kamasample1.obj
+ 0002:00000db8       $unwind$mexFunction        0000000180011db8     kamasample1_sfun_registry.obj
+ 0002:00000dc0       $unwind$_ssSetInputPortDirectFeedThroughFcn 0000000180011dc0     kamasample1_sfun_registry.obj
+ 0002:00000dc8       $unwind$_ssGetInputPortSignalPtrsFcn 0000000180011dc8     kamasample1_sfun_registry.obj
+ 0002:00000dd0       $unwind$_ssGetInputPortSignalFcn 0000000180011dd0     kamasample1_sfun_registry.obj
+ 0002:00000dd8       $unwind$_ssSetInputPortReusableFcn 0000000180011dd8     kamasample1_sfun_registry.obj
+ 0002:00000de8       $unwind$_ssSetOutputPortReusableFcn 0000000180011de8     kamasample1_sfun_registry.obj
+ 0002:00000df8       $unwind$ssGetIsZeroCrossControlDisabled 0000000180011df8     kamasample1_sfun_registry.obj
+ 0002:00000e00       $unwind$ssSetIsInputPortUsedForContZcSignal 0000000180011e00     kamasample1_sfun_registry.obj
+ 0002:00000e08       $unwind$ssSetZcSignalIsZcElementDisc 0000000180011e08     kamasample1_sfun_registry.obj
+ 0002:00000e18       $unwind$ssSetZcSignalName  0000000180011e18     kamasample1_sfun_registry.obj
+ 0002:00000e20       $unwind$ssSetZcSignalWidth 0000000180011e20     kamasample1_sfun_registry.obj
+ 0002:00000e28       $unwind$ssSetZcSignalZcEventType 0000000180011e28     kamasample1_sfun_registry.obj
+ 0002:00000e30       $unwind$ssSetZcSignalType  0000000180011e30     kamasample1_sfun_registry.obj
+ 0002:00000e38       $unwind$ssSetZcSignalZcTol 0000000180011e38     kamasample1_sfun_registry.obj
+ 0002:00000e40       $unwind$ssSetZcSignalNeedsEventNotification 0000000180011e40     kamasample1_sfun_registry.obj
+ 0002:00000e48       $unwind$ssCreateAndAddZcSignalInfo 0000000180011e48     kamasample1_sfun_registry.obj
+ 0002:00000e50       $unwind$ssCloneAndAddZcSignalInfo 0000000180011e50     kamasample1_sfun_registry.obj
+ 0002:00000e58       $unwind$ssGetNumZcSignals  0000000180011e58     kamasample1_sfun_registry.obj
+ 0002:00000e60       $unwind$ssGetZcSignalVector 0000000180011e60     kamasample1_sfun_registry.obj
+ 0002:00000e68       $unwind$ssGetZcSignalName  0000000180011e68     kamasample1_sfun_registry.obj
+ 0002:00000e70       $unwind$ssGetZcSignalWidth 0000000180011e70     kamasample1_sfun_registry.obj
+ 0002:00000e78       $unwind$ssGetZcSignalZcEventType 0000000180011e78     kamasample1_sfun_registry.obj
+ 0002:00000e80       $unwind$ssGetZcSignalZcEvents 0000000180011e80     kamasample1_sfun_registry.obj
+ 0002:00000e88       $unwind$ssGetZcSignalType  0000000180011e88     kamasample1_sfun_registry.obj
+ 0002:00000e90       $unwind$ssGetZcSignalZcTol 0000000180011e90     kamasample1_sfun_registry.obj
+ 0002:00000e98       $unwind$ssGetZcSignalNeedsEventNotification 0000000180011e98     kamasample1_sfun_registry.obj
+ 0002:00000ea0       $unwind$ssGetZcSignalIsZcElementDisc 0000000180011ea0     kamasample1_sfun_registry.obj
+ 0002:00000eb0       $unwind$ssGetIsInputPortElementContinuous 0000000180011eb0     kamasample1_sfun_registry.obj
+ 0002:00000ec0       $unwind$ssGetDTypeIdFromMxArray 0000000180011ec0     kamasample1_sfun_registry.obj
+ 0002:00000ec8       $unwind$ssWriteRTWStr      0000000180011ec8     kamasample1_sfun_registry.obj
+ 0002:00000ed0       $unwind$ssWriteRTWNameValuePair 0000000180011ed0     kamasample1_sfun_registry.obj
+ 0002:00000ed8       $unwind$ssWriteRTWParamSettings 0000000180011ed8     kamasample1_sfun_registry.obj
+ 0002:00000ee0       $unwind$ssWriteRTWParameters 0000000180011ee0     kamasample1_sfun_registry.obj
+ 0002:00000ee8       $unwind$ssWriteRTWWorkVect 0000000180011ee8     kamasample1_sfun_registry.obj
+ 0002:00000efc       $unwind$ssWriteRTWMxVectParam 0000000180011efc     kamasample1_sfun_registry.obj
+ 0002:00000f04       $unwind$ssWriteRTWMx2dMatParam 0000000180011f04     kamasample1_sfun_registry.obj
+ 0002:00000f0c       $unwind$_ssSetInputPortMatrixDimensions 0000000180011f0c     kamasample1_sfun_registry.obj
+ 0002:00000f18       $unwind$_ssSetOutputPortMatrixDimensions 0000000180011f18     kamasample1_sfun_registry.obj
+ 0002:00000f24       $unwind$_ssSetInputPortVectorDimension 0000000180011f24     kamasample1_sfun_registry.obj
+ 0002:00000f30       $unwind$_ssSetOutputPortVectorDimension 0000000180011f30     kamasample1_sfun_registry.obj
+ 0002:00000f3c       $unwind$ssIsRunTimeParamTunable 0000000180011f3c     kamasample1_sfun_registry.obj
+ 0002:00000f44       $unwind$ssGetSFuncBlockHandle 0000000180011f44     kamasample1_sfun_registry.obj
+ 0002:00000f4c       $unwind$_ssGetCurrentInputPortWidth 0000000180011f4c     kamasample1_sfun_registry.obj
+ 0002:00000f54       $unwind$_ssGetCurrentOutputPortWidth 0000000180011f54     kamasample1_sfun_registry.obj
+ 0002:00000f5c       $unwind$_ssGetCallSystemNumFcnCallDestinations 0000000180011f5c     kamasample1_sfun_registry.obj
+ 0002:00000f64       $unwind$ssWarning          0000000180011f64     kamasample1_sfun_registry.obj
+ 0002:00000f78       $unwind$_ssGetAbsTol       0000000180011f78     kamasample1_sfun_registry.obj
+ 0002:00000f80       $unwind$sf_process_check_sum_call 0000000180011f80     kamasample1_sfun_registry.obj
+ 0002:00000f88       $unwind$sf_process_machine_uses_exported_functions_call 0000000180011f88     kamasample1_sfun_registry.obj
+ 0002:00000f98       $unwind$sf_process_autoinheritance_call 0000000180011f98     kamasample1_sfun_registry.obj
+ 0002:00000fa8       $unwind$sf_process_get_third_party_uses_info_call 0000000180011fa8     kamasample1_sfun_registry.obj
+ 0002:00000fb8       $unwind$sf_process_get_jit_fallback_info_call 0000000180011fb8     kamasample1_sfun_registry.obj
+ 0002:00000fc8       $unwind$sf_process_get_updateBuildInfo_args_info_call 0000000180011fc8     kamasample1_sfun_registry.obj
+ 0002:00000fd8       $unwind$sf_process_get_eml_resolved_functions_info_call 0000000180011fd8     kamasample1_sfun_registry.obj
+ 0002:00000fe8       $unwind$sf_process_get_post_codegen_info 0000000180011fe8     kamasample1_sfun_registry.obj
+ 0002:00000ff8       $unwind$sf_mex_unlock_call 0000000180011ff8     kamasample1_sfun_registry.obj
+ 0002:00001008       $unwind$sf_debug_api_wrapper 0000000180012008     kamasample1_sfun_registry.obj
+ 0002:00001010       $unwind$ProcessMexSfunctionCmdLineCall 0000000180012010     kamasample1_sfun_registry.obj
+ 0002:00001018       $unwind$sf_machine_global_initializer_called 0000000180012018     kamasample1_sfun_registry.obj
+ 0002:00001020       $unwind$sf_machine_global_method_dispatcher 0000000180012020     kamasample1_sfun_registry.obj
+ 0002:00001028       $unwind$sf_machine_global_terminator 0000000180012028     kamasample1_sfun_registry.obj
+ 0002:00001030       $unwind$sf_register_machine_exported_symbols 0000000180012030     kamasample1_sfun_registry.obj
+ 0002:00001038       $unwind$sf_machine_global_initializer 0000000180012038     kamasample1_sfun_registry.obj
+ 0002:00001040       $unwind$getChartInfoFromSimStruct 0000000180012040     kamasample1_sfun_registry.obj
+ 0002:00001048       $unwind$mdlGetSimState     0000000180012048     kamasample1_sfun_registry.obj
+ 0002:00001050       $unwind$mdlSetSimState     0000000180012050     kamasample1_sfun_registry.obj
+ 0002:00001058       $unwind$mdlSetWorkWidths   0000000180012058     kamasample1_sfun_registry.obj
+ 0002:00001060       $unwind$mdlProcessParameters 0000000180012060     kamasample1_sfun_registry.obj
+ 0002:00001068       $unwind$mdl_start_processing 0000000180012068     kamasample1_sfun_registry.obj
+ 0002:00001070       $unwind$mdl_terminate_processing 0000000180012070     kamasample1_sfun_registry.obj
+ 0002:00001078       $unwind$mdlStart           0000000180012078     kamasample1_sfun_registry.obj
+ 0002:00001080       $unwind$mdlTerminate       0000000180012080     kamasample1_sfun_registry.obj
+ 0002:00001088       $unwind$mdlInitializeSizes 0000000180012088     kamasample1_sfun_registry.obj
+ 0002:00001090       $unwind$mdlInitializeSampleTimes 0000000180012090     kamasample1_sfun_registry.obj
+ 0002:00001098       $unwind$mdl_outputs_continuous_legacy 0000000180012098     kamasample1_sfun_registry.obj
+ 0002:000010a0       $unwind$mdl_outputs_processing 00000001800120a0     kamasample1_sfun_registry.obj
+ 0002:000010a8       $unwind$mdl_zeroCrossings_processing 00000001800120a8     kamasample1_sfun_registry.obj
+ 0002:000010b0       $unwind$mdlZeroCrossings   00000001800120b0     kamasample1_sfun_registry.obj
+ 0002:000010b8       $unwind$mdl_derivatives_processing 00000001800120b8     kamasample1_sfun_registry.obj
+ 0002:000010c0       $unwind$mdlDerivatives     00000001800120c0     kamasample1_sfun_registry.obj
+ 0002:000010c8       $unwind$mdl_initialize_conditions_processing 00000001800120c8     kamasample1_sfun_registry.obj
+ 0002:000010d0       $unwind$mdlInitializeConditions 00000001800120d0     kamasample1_sfun_registry.obj
+ 0002:000010d8       $unwind$mdl_ext_mode_exec_processing 00000001800120d8     kamasample1_sfun_registry.obj
+ 0002:000010e0       $unwind$mdlExtModeExec     00000001800120e0     kamasample1_sfun_registry.obj
+ 0002:000010e8       $unwind$mdlRTW             00000001800120e8     kamasample1_sfun_registry.obj
+ 0002:000010f0       $unwind$mdl_enable_processing 00000001800120f0     kamasample1_sfun_registry.obj
+ 0002:000010f8       $unwind$mdlEnable          00000001800120f8     kamasample1_sfun_registry.obj
+ 0002:00001100       $unwind$mdl_disable_processing 0000000180012100     kamasample1_sfun_registry.obj
+ 0002:00001108       $unwind$mdlDisable         0000000180012108     kamasample1_sfun_registry.obj
+ 0002:00001110       $unwind$mdlOutputs         0000000180012110     kamasample1_sfun_registry.obj
+ 0002:00001118       $unwind$ProcessMexSfunctionEveryCall 0000000180012118     kamasample1_sfun_registry.obj
+ 0002:00001120       $unwind$_RegNumInputPortsCB 0000000180012120     kamasample1_sfun_registry.obj
+ 0002:00001128       $unwind$_RegNumOutputPortsCB 0000000180012128     kamasample1_sfun_registry.obj
+ 0002:00001130       $unwind$_CreateSimStruct   0000000180012130     kamasample1_sfun_registry.obj
+ 0002:00001138       $unwind$_ssFatalError      0000000180012138     kamasample1_sfun_registry.obj
+ 0002:00001140       $unwind$_ProcessMexSfunctionCmdLineCall 0000000180012140     kamasample1_sfun_registry.obj
+ 0002:00001150       $unwind$__report_securityfailure 0000000180012150     MSVCRT:gs_report.obj
+ 0002:00001158       $unwind$__report_securityfailureEx 0000000180012158     MSVCRT:gs_report.obj
+ 0002:00001160       $unwind$__report_rangecheckfailure 0000000180012160     MSVCRT:gs_report.obj
+ 0002:00001168       $unwind$__raise_securityfailure 0000000180012168     MSVCRT:gs_report.obj
+ 0002:00001170       $unwind$__report_gsfailure 0000000180012170     MSVCRT:gs_report.obj
+ 0002:00001178       $unwind$__GSHandlerCheckCommon 0000000180012178     MSVCRT:gshandler.obj
+ 0002:00001180       $unwind$__GSHandlerCheck   0000000180012180     MSVCRT:gshandler.obj
+ 0002:00001188       $xdatasym                  0000000180012188     MSVCRT:amdsecgs.obj
+ 0002:0000118c       $unwind$_CRT_INIT          000000018001218c     MSVCRT:crtdll.obj
+ 0002:000011a8       $unwind$pre_c_init         00000001800121a8     MSVCRT:crtdll.obj
+ 0002:000011b0       $unwind$__DllMainCRTStartup 00000001800121b0     MSVCRT:crtdll.obj
+ 0002:000011ec       $unwind$__DllMainCRTStartup$filt$0 00000001800121ec     MSVCRT:crtdll.obj
+ 0002:000011f4       $unwind$__DllMainCRTStartup$fin$1 00000001800121f4     MSVCRT:crtdll.obj
+ 0002:000011fc       $unwind$_DllMainCRTStartup 00000001800121fc     MSVCRT:crtdll.obj
+ 0002:0000120c       $unwind$_IsNonwritableInCurrentImage 000000018001220c     MSVCRT:pesect.obj
+ 0002:00001230       $unwind$_IsNonwritableInCurrentImage$filt$0 0000000180012230     MSVCRT:pesect.obj
+ 0002:00001238       $unwind$atexit             0000000180012238     MSVCRT:atonexit.obj
+ 0002:00001240       $unwind$_onexit            0000000180012240     MSVCRT:atonexit.obj
+ 0002:00001260       $unwind$_onexit$fin$0      0000000180012260     MSVCRT:atonexit.obj
+ 0002:00001268       $unwind$__atonexitinit     0000000180012268     MSVCRT:atonexit.obj
+ 0002:00001270       $unwind$__security_init_cookie 0000000180012270     MSVCRT:gs_support.obj
+ 0002:0000127c       $unwind$DllMain            000000018001227c     MSVCRT:dllmain.obj
+ 0002:00001284       $unwind$_RTC_Initialize    0000000180012284     MSVCRT:initsect.obj
+ 0002:00001290       $unwind$_RTC_Terminate     0000000180012290     MSVCRT:initsect.obj
+ 0002:00001e88       .idata$6                   0000000180012e88     sf_runtime:sf_runtime.dll
+ 0002:00002018       .idata$6                   0000000180013018     libmx:libmx.dll
+ 0002:0000209a       .idata$6                   000000018001309a     libmex:libmex.dll
+ 0002:000020bc       .idata$6                   00000001800130bc     libut:libut.dll
+ 0002:00002106       .idata$6                   0000000180013106     libmwmathutil:libmwmathutil.dll
+ 0002:000021ea       .idata$6                   00000001800131ea     MSVCRT:MSVCR110.dll
+ 0002:0000237c       .idata$6                   000000018001337c     kernel32:KERNEL32.dll
+ 0002:00002390       .edata                     0000000180013390     kamasample1_sfun.exp
+ 0002:000023b8       rgpv                       00000001800133b8     kamasample1_sfun.exp
+ 0002:000023bc       rgszName                   00000001800133bc     kamasample1_sfun.exp
+ 0002:000023c0       rgwOrd                     00000001800133c0     kamasample1_sfun.exp
+ 0002:000023c2       szName                     00000001800133c2     kamasample1_sfun.exp
+ 0002:000023da       $N00001                    00000001800133da     kamasample1_sfun.exp
+ 0003:00000000       $SG14870                   0000000180014000     kamasample1_sfun.obj
+ 0003:00000018       $SG14876                   0000000180014018     kamasample1_sfun.obj
+ 0003:00000020       $SG14887                   0000000180014020     kamasample1_sfun.obj
+ 0003:00000030       $SG14898                   0000000180014030     kamasample1_sfun.obj
+ 0003:0000003c       $SG14909                   000000018001403c     kamasample1_sfun.obj
+ 0003:00000044       $SG14931                   0000000180014044     kamasample1_sfun.obj
+ 0003:00000050       $SG14968                   0000000180014050     kamasample1_sfun.obj
+ 0003:00000070       $SG14980                   0000000180014070     kamasample1_sfun.obj
+ 0003:00000088       $SG15001                   0000000180014088     kamasample1_sfun.obj
+ 0003:000000a8       $SG15035                   00000001800140a8     kamasample1_sfun.obj
+ 0003:000000c8       $SG15044                   00000001800140c8     kamasample1_sfun.obj
+ 0003:000000e0       $SG15069                   00000001800140e0     kamasample1_sfun.obj
+ 0003:000000f8       $SG15078                   00000001800140f8     kamasample1_sfun.obj
+ 0003:00000110       $SG15103                   0000000180014110     kamasample1_sfun.obj
+ 0003:00000130       $SG15112                   0000000180014130     kamasample1_sfun.obj
+ 0003:00000148       $SG15138                   0000000180014148     kamasample1_sfun.obj
+ 0003:00000160       $SG15146                   0000000180014160     kamasample1_sfun.obj
+ 0003:00000168       $SG15147                   0000000180014168     kamasample1_sfun.obj
+ 0003:00000178       $SG15158                   0000000180014178     kamasample1_sfun.obj
+ 0003:00000188       $SG15159                   0000000180014188     kamasample1_sfun.obj
+ 0003:000001a0       $SG18432                   00000001800141a0     c2_kamasample1.obj
+ 0003:000001a8       $SG18433                   00000001800141a8     c2_kamasample1.obj
+ 0003:000001b0       $SG18434                   00000001800141b0     c2_kamasample1.obj
+ 0003:000001b8       $SG18435                   00000001800141b8     c2_kamasample1.obj
+ 0003:000001c0       $SG18437                   00000001800141c0     c2_kamasample1.obj
+ 0003:000001c8       $SG18438                   00000001800141c8     c2_kamasample1.obj
+ 0003:000001d0       $SG18439                   00000001800141d0     c2_kamasample1.obj
+ 0003:000001d8       $SG18440                   00000001800141d8     c2_kamasample1.obj
+ 0003:000001e4       $SG18441                   00000001800141e4     c2_kamasample1.obj
+ 0003:000001ec       $SG17484                   00000001800141ec     c2_kamasample1.obj
+ 0003:000001f0       $SG18442                   00000001800141f0     c2_kamasample1.obj
+ 0003:000001fc       $SG18444                   00000001800141fc     c2_kamasample1.obj
+ 0003:00000204       $SG18445                   0000000180014204     c2_kamasample1.obj
+ 0003:0000020c       $SG18446                   000000018001420c     c2_kamasample1.obj
+ 0003:00000214       $SG18447                   0000000180014214     c2_kamasample1.obj
+ 0003:0000021c       $SG18459                   000000018001421c     c2_kamasample1.obj
+ 0003:00000224       $SG18467                   0000000180014224     c2_kamasample1.obj
+ 0003:0000022c       $SG17486                   000000018001422c     c2_kamasample1.obj
+ 0003:00000230       $SG18448                   0000000180014230     c2_kamasample1.obj
+ 0003:0000023c       $SG17493                   000000018001423c     c2_kamasample1.obj
+ 0003:00000240       $SG18449                   0000000180014240     c2_kamasample1.obj
+ 0003:0000024c       $SG18455                   000000018001424c     c2_kamasample1.obj
+ 0003:00000254       $SG18457                   0000000180014254     c2_kamasample1.obj
+ 0003:0000025c       $SG18458                   000000018001425c     c2_kamasample1.obj
+ 0003:00000264       $SG18460                   0000000180014264     c2_kamasample1.obj
+ 0003:0000026c       $SG18462                   000000018001426c     c2_kamasample1.obj
+ 0003:00000274       $SG18463                   0000000180014274     c2_kamasample1.obj
+ 0003:0000027c       $SG18464                   000000018001427c     c2_kamasample1.obj
+ 0003:00000284       $SG18490                   0000000180014284     c2_kamasample1.obj
+ 0003:0000028c       $SG18541                   000000018001428c     c2_kamasample1.obj
+ 0003:00000290       $SG18465                   0000000180014290     c2_kamasample1.obj
+ 0003:0000029c       $SG18542                   000000018001429c     c2_kamasample1.obj
+ 0003:000002a0       $SG18466                   00000001800142a0     c2_kamasample1.obj
+ 0003:000002a8       $SG18469                   00000001800142a8     c2_kamasample1.obj
+ 0003:000002b8       $SG18478                   00000001800142b8     c2_kamasample1.obj
+ 0003:000002c8       $SG18479                   00000001800142c8     c2_kamasample1.obj
+ 0003:000002d8       $SG18480                   00000001800142d8     c2_kamasample1.obj
+ 0003:000002e8       $SG18481                   00000001800142e8     c2_kamasample1.obj
+ 0003:000002f8       $SG18482                   00000001800142f8     c2_kamasample1.obj
+ 0003:0000030c       $SG18543                   000000018001430c     c2_kamasample1.obj
+ 0003:00000310       $SG18483                   0000000180014310     c2_kamasample1.obj
+ 0003:00000324       $SG18544                   0000000180014324     c2_kamasample1.obj
+ 0003:00000328       $SG18486                   0000000180014328     c2_kamasample1.obj
+ 0003:00000334       $SG18545                   0000000180014334     c2_kamasample1.obj
+ 0003:00000338       $SG18498                   0000000180014338     c2_kamasample1.obj
+ 0003:0000035c       $SG18546                   000000018001435c     c2_kamasample1.obj
+ 0003:00000360       $SG18499                   0000000180014360     c2_kamasample1.obj
+ 0003:00000384       $SG17623                   0000000180014384     c2_kamasample1.obj
+ 0003:00000388       $SG18500                   0000000180014388     c2_kamasample1.obj
+ 0003:000003a4       $SG17751                   00000001800143a4     c2_kamasample1.obj
+ 0003:000003a8       $SG18501                   00000001800143a8     c2_kamasample1.obj
+ 0003:000003c4       $SG17754                   00000001800143c4     c2_kamasample1.obj
+ 0003:000003cc       $SG17766                   00000001800143cc     c2_kamasample1.obj
+ 0003:000003d0       $SG18508                   00000001800143d0     c2_kamasample1.obj
+ 0003:000003f4       $SG18686                   00000001800143f4     c2_kamasample1.obj
+ 0003:000003fc       $SG17767                   00000001800143fc     c2_kamasample1.obj
+ 0003:00000400       $SG18509                   0000000180014400     c2_kamasample1.obj
+ 0003:0000041c       $SG17768                   000000018001441c     c2_kamasample1.obj
+ 0003:00000420       $SG18514                   0000000180014420     c2_kamasample1.obj
+ 0003:00000430       $SG18515                   0000000180014430     c2_kamasample1.obj
+ 0003:00000440       $SG18516                   0000000180014440     c2_kamasample1.obj
+ 0003:00000448       $SG18517                   0000000180014448     c2_kamasample1.obj
+ 0003:00000450       $SG17494                   0000000180014450     c2_kamasample1.obj
+ 0003:00000470       $SG18520                   0000000180014470     c2_kamasample1.obj
+ 0003:000004d8       $SG18552                   00000001800144d8     c2_kamasample1.obj
+ 0003:000004e8       $SG18592                   00000001800144e8     c2_kamasample1.obj
+ 0003:00000500       $SG18521                   0000000180014500     c2_kamasample1.obj
+ 0003:00000568       $SG17666                   0000000180014568     c2_kamasample1.obj
+ 0003:00000574       $SG17769                   0000000180014574     c2_kamasample1.obj
+ 0003:00000578       $SG18693                   0000000180014578     c2_kamasample1.obj
+ 0003:0000059c       $SG17790                   000000018001459c     c2_kamasample1.obj
+ 0003:000005a0       $SG18714                   00000001800145a0     c2_kamasample1.obj
+ 0003:000005b0       $SG18715                   00000001800145b0     c2_kamasample1.obj
+ 0003:000005c4       $SG17791                   00000001800145c4     c2_kamasample1.obj
+ 0003:000005c8       $SG18729                   00000001800145c8     c2_kamasample1.obj
+ 0003:000005f8       $SG17746                   00000001800145f8     c2_kamasample1.obj
+ 0003:00000600       $SG18757                   0000000180014600     c2_kamasample1.obj
+ 0003:00000664       $SG17792                   0000000180014664     c2_kamasample1.obj
+ 0003:00000668       $SG17747                   0000000180014668     c2_kamasample1.obj
+ 0003:00000670       $SG17749                   0000000180014670     c2_kamasample1.obj
+ 0003:00000678       $SG17750                   0000000180014678     c2_kamasample1.obj
+ 0003:00000680       $SG17752                   0000000180014680     c2_kamasample1.obj
+ 0003:00000690       $SG17753                   0000000180014690     c2_kamasample1.obj
+ 0003:000006a0       $SG17755                   00000001800146a0     c2_kamasample1.obj
+ 0003:000006ac       $SG17778                   00000001800146ac     c2_kamasample1.obj
+ 0003:000006b4       $SG17793                   00000001800146b4     c2_kamasample1.obj
+ 0003:000006b8       $SG17756                   00000001800146b8     c2_kamasample1.obj
+ 0003:000006c4       $SG17802                   00000001800146c4     c2_kamasample1.obj
+ 0003:000006cc       $SG17814                   00000001800146cc     c2_kamasample1.obj
+ 0003:000006d0       $SG17757                   00000001800146d0     c2_kamasample1.obj
+ 0003:00000708       $SG17758                   0000000180014708     c2_kamasample1.obj
+ 0003:00000714       $SG17815                   0000000180014714     c2_kamasample1.obj
+ 0003:00000718       $SG17759                   0000000180014718     c2_kamasample1.obj
+ 0003:00000724       $SG17816                   0000000180014724     c2_kamasample1.obj
+ 0003:00000728       $SG17760                   0000000180014728     c2_kamasample1.obj
+ 0003:00000734       $SG17817                   0000000180014734     c2_kamasample1.obj
+ 0003:00000738       $SG17761                   0000000180014738     c2_kamasample1.obj
+ 0003:00000744       $SG17838                   0000000180014744     c2_kamasample1.obj
+ 0003:00000748       $SG17762                   0000000180014748     c2_kamasample1.obj
+ 0003:00000754       $SG17839                   0000000180014754     c2_kamasample1.obj
+ 0003:00000758       $SG17763                   0000000180014758     c2_kamasample1.obj
+ 0003:00000764       $SG17840                   0000000180014764     c2_kamasample1.obj
+ 0003:00000768       $SG17764                   0000000180014768     c2_kamasample1.obj
+ 0003:00000774       $SG17841                   0000000180014774     c2_kamasample1.obj
+ 0003:00000778       $SG17765                   0000000180014778     c2_kamasample1.obj
+ 0003:00000784       $SG17862                   0000000180014784     c2_kamasample1.obj
+ 0003:00000788       $SG17770                   0000000180014788     c2_kamasample1.obj
+ 0003:00000790       $SG17771                   0000000180014790     c2_kamasample1.obj
+ 0003:00000798       $SG17772                   0000000180014798     c2_kamasample1.obj
+ 0003:000007d0       $SG17773                   00000001800147d0     c2_kamasample1.obj
+ 0003:000007d8       $SG17774                   00000001800147d8     c2_kamasample1.obj
+ 0003:000007e0       $SG17775                   00000001800147e0     c2_kamasample1.obj
+ 0003:00000800       $SG17776                   0000000180014800     c2_kamasample1.obj
+ 0003:00000810       $SG17777                   0000000180014810     c2_kamasample1.obj
+ 0003:00000820       $SG17779                   0000000180014820     c2_kamasample1.obj
+ 0003:0000082c       $SG17826                   000000018001482c     c2_kamasample1.obj
+ 0003:00000834       $SG17863                   0000000180014834     c2_kamasample1.obj
+ 0003:00000838       $SG17780                   0000000180014838     c2_kamasample1.obj
+ 0003:00000848       $SG17782                   0000000180014848     c2_kamasample1.obj
+ 0003:00000858       $SG17786                   0000000180014858     c2_kamasample1.obj
+ 0003:00000864       $SG17797                   0000000180014864     c2_kamasample1.obj
+ 0003:00000870       $SG17781                   0000000180014870     c2_kamasample1.obj
+ 0003:000008c4       $SG17864                   00000001800148c4     c2_kamasample1.obj
+ 0003:000008c8       $SG17783                   00000001800148c8     c2_kamasample1.obj
+ 0003:000008d4       $SG17865                   00000001800148d4     c2_kamasample1.obj
+ 0003:000008d8       $SG17784                   00000001800148d8     c2_kamasample1.obj
+ 0003:000008e4       $SG17886                   00000001800148e4     c2_kamasample1.obj
+ 0003:000008e8       $SG17785                   00000001800148e8     c2_kamasample1.obj
+ 0003:000008f4       $SG17887                   00000001800148f4     c2_kamasample1.obj
+ 0003:000008f8       $SG17787                   00000001800148f8     c2_kamasample1.obj
+ 0003:00000904       $SG17888                   0000000180014904     c2_kamasample1.obj
+ 0003:00000908       $SG17788                   0000000180014908     c2_kamasample1.obj
+ 0003:00000914       $SG17889                   0000000180014914     c2_kamasample1.obj
+ 0003:00000918       $SG17789                   0000000180014918     c2_kamasample1.obj
+ 0003:00000924       $SG17910                   0000000180014924     c2_kamasample1.obj
+ 0003:00000928       $SG17794                   0000000180014928     c2_kamasample1.obj
+ 0003:00000930       $SG17795                   0000000180014930     c2_kamasample1.obj
+ 0003:00000938       $SG17796                   0000000180014938     c2_kamasample1.obj
+ 0003:00000970       $SG17798                   0000000180014970     c2_kamasample1.obj
+ 0003:00000978       $SG17799                   0000000180014978     c2_kamasample1.obj
+ 0003:00000988       $SG17800                   0000000180014988     c2_kamasample1.obj
+ 0003:00000998       $SG17801                   0000000180014998     c2_kamasample1.obj
+ 0003:000009a8       $SG17803                   00000001800149a8     c2_kamasample1.obj
+ 0003:000009b4       $SG17874                   00000001800149b4     c2_kamasample1.obj
+ 0003:000009bc       $SG17911                   00000001800149bc     c2_kamasample1.obj
+ 0003:000009c0       $SG17804                   00000001800149c0     c2_kamasample1.obj
+ 0003:000009d0       $SG17805                   00000001800149d0     c2_kamasample1.obj
+ 0003:00000a14       $SG17898                   0000000180014a14     c2_kamasample1.obj
+ 0003:00000a1c       $SG17912                   0000000180014a1c     c2_kamasample1.obj
+ 0003:00000a20       $SG17806                   0000000180014a20     c2_kamasample1.obj
+ 0003:00000a2c       $SG17913                   0000000180014a2c     c2_kamasample1.obj
+ 0003:00000a30       $SG17807                   0000000180014a30     c2_kamasample1.obj
+ 0003:00000a3c       $SG17934                   0000000180014a3c     c2_kamasample1.obj
+ 0003:00000a40       $SG17808                   0000000180014a40     c2_kamasample1.obj
+ 0003:00000a4c       $SG17935                   0000000180014a4c     c2_kamasample1.obj
+ 0003:00000a50       $SG17809                   0000000180014a50     c2_kamasample1.obj
+ 0003:00000a5c       $SG17936                   0000000180014a5c     c2_kamasample1.obj
+ 0003:00000a60       $SG17810                   0000000180014a60     c2_kamasample1.obj
+ 0003:00000a6c       $SG17937                   0000000180014a6c     c2_kamasample1.obj
+ 0003:00000a70       $SG17811                   0000000180014a70     c2_kamasample1.obj
+ 0003:00000a7c       $SG17958                   0000000180014a7c     c2_kamasample1.obj
+ 0003:00000a80       $SG17812                   0000000180014a80     c2_kamasample1.obj
+ 0003:00000a8c       $SG17959                   0000000180014a8c     c2_kamasample1.obj
+ 0003:00000a90       $SG17813                   0000000180014a90     c2_kamasample1.obj
+ 0003:00000a9c       $SG17960                   0000000180014a9c     c2_kamasample1.obj
+ 0003:00000aa0       $SG17818                   0000000180014aa0     c2_kamasample1.obj
+ 0003:00000aa8       $SG17819                   0000000180014aa8     c2_kamasample1.obj
+ 0003:00000ab0       $SG17821                   0000000180014ab0     c2_kamasample1.obj
+ 0003:00000ab8       $SG17822                   0000000180014ab8     c2_kamasample1.obj
+ 0003:00000ac0       $SG17823                   0000000180014ac0     c2_kamasample1.obj
+ 0003:00000ac8       $SG17824                   0000000180014ac8     c2_kamasample1.obj
+ 0003:00000ad8       $SG17825                   0000000180014ad8     c2_kamasample1.obj
+ 0003:00000ae8       $SG17827                   0000000180014ae8     c2_kamasample1.obj
+ 0003:00000af4       $SG17946                   0000000180014af4     c2_kamasample1.obj
+ 0003:00000afc       $SG17961                   0000000180014afc     c2_kamasample1.obj
+ 0003:00000b00       $SG17828                   0000000180014b00     c2_kamasample1.obj
+ 0003:00000b0c       $SG17970                   0000000180014b0c     c2_kamasample1.obj
+ 0003:00000b14       $SG17982                   0000000180014b14     c2_kamasample1.obj
+ 0003:00000b18       $SG17829                   0000000180014b18     c2_kamasample1.obj
+ 0003:00000b50       $SG17830                   0000000180014b50     c2_kamasample1.obj
+ 0003:00000b5c       $SG17983                   0000000180014b5c     c2_kamasample1.obj
+ 0003:00000b60       $SG17831                   0000000180014b60     c2_kamasample1.obj
+ 0003:00000b6c       $SG17984                   0000000180014b6c     c2_kamasample1.obj
+ 0003:00000b70       $SG17832                   0000000180014b70     c2_kamasample1.obj
+ 0003:00000b7c       $SG17985                   0000000180014b7c     c2_kamasample1.obj
+ 0003:00000b80       $SG17833                   0000000180014b80     c2_kamasample1.obj
+ 0003:00000b8c       $SG18006                   0000000180014b8c     c2_kamasample1.obj
+ 0003:00000b90       $SG17834                   0000000180014b90     c2_kamasample1.obj
+ 0003:00000b9c       $SG18007                   0000000180014b9c     c2_kamasample1.obj
+ 0003:00000ba0       $SG17835                   0000000180014ba0     c2_kamasample1.obj
+ 0003:00000bac       $SG18008                   0000000180014bac     c2_kamasample1.obj
+ 0003:00000bb0       $SG17836                   0000000180014bb0     c2_kamasample1.obj
+ 0003:00000bbc       $SG18009                   0000000180014bbc     c2_kamasample1.obj
+ 0003:00000bc0       $SG17837                   0000000180014bc0     c2_kamasample1.obj
+ 0003:00000bcc       $SG18030                   0000000180014bcc     c2_kamasample1.obj
+ 0003:00000bd0       $SG17842                   0000000180014bd0     c2_kamasample1.obj
+ 0003:00000bd8       $SG17843                   0000000180014bd8     c2_kamasample1.obj
+ 0003:00000be0       $SG17844                   0000000180014be0     c2_kamasample1.obj
+ 0003:00000c18       $SG17845                   0000000180014c18     c2_kamasample1.obj
+ 0003:00000c20       $SG17846                   0000000180014c20     c2_kamasample1.obj
+ 0003:00000c28       $SG17847                   0000000180014c28     c2_kamasample1.obj
+ 0003:00000c34       $SG17994                   0000000180014c34     c2_kamasample1.obj
+ 0003:00000c3c       $SG18031                   0000000180014c3c     c2_kamasample1.obj
+ 0003:00000c40       $SG17848                   0000000180014c40     c2_kamasample1.obj
+ 0003:00000c50       $SG17849                   0000000180014c50     c2_kamasample1.obj
+ 0003:00000c60       $SG17850                   0000000180014c60     c2_kamasample1.obj
+ 0003:00000c68       $SG17851                   0000000180014c68     c2_kamasample1.obj
+ 0003:00000c74       $SG18018                   0000000180014c74     c2_kamasample1.obj
+ 0003:00000c7c       $SG18032                   0000000180014c7c     c2_kamasample1.obj
+ 0003:00000c80       $SG17852                   0000000180014c80     c2_kamasample1.obj
+ 0003:00000c8c       $SG18033                   0000000180014c8c     c2_kamasample1.obj
+ 0003:00000c90       $SG17853                   0000000180014c90     c2_kamasample1.obj
+ 0003:00000ccc       $SG18042                   0000000180014ccc     c2_kamasample1.obj
+ 0003:00000cd4       $SG18054                   0000000180014cd4     c2_kamasample1.obj
+ 0003:00000cd8       $SG17854                   0000000180014cd8     c2_kamasample1.obj
+ 0003:00000ce4       $SG18055                   0000000180014ce4     c2_kamasample1.obj
+ 0003:00000ce8       $SG17855                   0000000180014ce8     c2_kamasample1.obj
+ 0003:00000cf4       $SG18056                   0000000180014cf4     c2_kamasample1.obj
+ 0003:00000cf8       $SG17856                   0000000180014cf8     c2_kamasample1.obj
+ 0003:00000d04       $SG18057                   0000000180014d04     c2_kamasample1.obj
+ 0003:00000d08       $SG17857                   0000000180014d08     c2_kamasample1.obj
+ 0003:00000d14       $SG18078                   0000000180014d14     c2_kamasample1.obj
+ 0003:00000d18       $SG17858                   0000000180014d18     c2_kamasample1.obj
+ 0003:00000d24       $SG18079                   0000000180014d24     c2_kamasample1.obj
+ 0003:00000d28       $SG17859                   0000000180014d28     c2_kamasample1.obj
+ 0003:00000d34       $SG18080                   0000000180014d34     c2_kamasample1.obj
+ 0003:00000d38       $SG17860                   0000000180014d38     c2_kamasample1.obj
+ 0003:00000d44       $SG18081                   0000000180014d44     c2_kamasample1.obj
+ 0003:00000d48       $SG17861                   0000000180014d48     c2_kamasample1.obj
+ 0003:00000d54       $SG18102                   0000000180014d54     c2_kamasample1.obj
+ 0003:00000d58       $SG17866                   0000000180014d58     c2_kamasample1.obj
+ 0003:00000d60       $SG17867                   0000000180014d60     c2_kamasample1.obj
+ 0003:00000d68       $SG17868                   0000000180014d68     c2_kamasample1.obj
+ 0003:00000da0       $SG17869                   0000000180014da0     c2_kamasample1.obj
+ 0003:00000da8       $SG17870                   0000000180014da8     c2_kamasample1.obj
+ 0003:00000db0       $SG17871                   0000000180014db0     c2_kamasample1.obj
+ 0003:00000dc0       $SG17872                   0000000180014dc0     c2_kamasample1.obj
+ 0003:00000dd0       $SG17873                   0000000180014dd0     c2_kamasample1.obj
+ 0003:00000de0       $SG17875                   0000000180014de0     c2_kamasample1.obj
+ 0003:00000dec       $SG18090                   0000000180014dec     c2_kamasample1.obj
+ 0003:00000df4       $SG18103                   0000000180014df4     c2_kamasample1.obj
+ 0003:00000df8       $SG17876                   0000000180014df8     c2_kamasample1.obj
+ 0003:00000e08       $SG17878                   0000000180014e08     c2_kamasample1.obj
+ 0003:00000e18       $SG17882                   0000000180014e18     c2_kamasample1.obj
+ 0003:00000e24       $SG17893                   0000000180014e24     c2_kamasample1.obj
+ 0003:00000e30       $SG17877                   0000000180014e30     c2_kamasample1.obj
+ 0003:00000e74       $SG18104                   0000000180014e74     c2_kamasample1.obj
+ 0003:00000e78       $SG17879                   0000000180014e78     c2_kamasample1.obj
+ 0003:00000e84       $SG18105                   0000000180014e84     c2_kamasample1.obj
+ 0003:00000e88       $SG17880                   0000000180014e88     c2_kamasample1.obj
+ 0003:00000e94       $SG18126                   0000000180014e94     c2_kamasample1.obj
+ 0003:00000e98       $SG17881                   0000000180014e98     c2_kamasample1.obj
+ 0003:00000ea4       $SG18127                   0000000180014ea4     c2_kamasample1.obj
+ 0003:00000ea8       $SG17883                   0000000180014ea8     c2_kamasample1.obj
+ 0003:00000eb4       $SG18128                   0000000180014eb4     c2_kamasample1.obj
+ 0003:00000eb8       $SG17884                   0000000180014eb8     c2_kamasample1.obj
+ 0003:00000ec4       $SG18129                   0000000180014ec4     c2_kamasample1.obj
+ 0003:00000ec8       $SG17885                   0000000180014ec8     c2_kamasample1.obj
+ 0003:00000ed4       $SG18150                   0000000180014ed4     c2_kamasample1.obj
+ 0003:00000ed8       $SG17890                   0000000180014ed8     c2_kamasample1.obj
+ 0003:00000ee0       $SG17891                   0000000180014ee0     c2_kamasample1.obj
+ 0003:00000ee8       $SG17894                   0000000180014ee8     c2_kamasample1.obj
+ 0003:00000ef0       $SG17895                   0000000180014ef0     c2_kamasample1.obj
+ 0003:00000efc       $SG18138                   0000000180014efc     c2_kamasample1.obj
+ 0003:00000f04       $SG18151                   0000000180014f04     c2_kamasample1.obj
+ 0003:00000f08       $SG17896                   0000000180014f08     c2_kamasample1.obj
+ 0003:00000f18       $SG17897                   0000000180014f18     c2_kamasample1.obj
+ 0003:00000f28       $SG17899                   0000000180014f28     c2_kamasample1.obj
+ 0003:00000f34       $SG18152                   0000000180014f34     c2_kamasample1.obj
+ 0003:00000f38       $SG17900                   0000000180014f38     c2_kamasample1.obj
+ 0003:00000f44       $SG18153                   0000000180014f44     c2_kamasample1.obj
+ 0003:00000f48       $SG17901                   0000000180014f48     c2_kamasample1.obj
+ 0003:00000f84       $SG18162                   0000000180014f84     c2_kamasample1.obj
+ 0003:00000f8c       $SG18174                   0000000180014f8c     c2_kamasample1.obj
+ 0003:00000f90       $SG17902                   0000000180014f90     c2_kamasample1.obj
+ 0003:00000f9c       $SG18175                   0000000180014f9c     c2_kamasample1.obj
+ 0003:00000fa0       $SG17903                   0000000180014fa0     c2_kamasample1.obj
+ 0003:00000fac       $SG18176                   0000000180014fac     c2_kamasample1.obj
+ 0003:00000fb0       $SG17904                   0000000180014fb0     c2_kamasample1.obj
+ 0003:00000fbc       $SG18177                   0000000180014fbc     c2_kamasample1.obj
+ 0003:00000fc0       $SG17905                   0000000180014fc0     c2_kamasample1.obj
+ 0003:00000fcc       $SG18198                   0000000180014fcc     c2_kamasample1.obj
+ 0003:00000fd0       $SG17906                   0000000180014fd0     c2_kamasample1.obj
+ 0003:00000fdc       $SG18199                   0000000180014fdc     c2_kamasample1.obj
+ 0003:00000fe0       $SG17907                   0000000180014fe0     c2_kamasample1.obj
+ 0003:00000fec       $SG18200                   0000000180014fec     c2_kamasample1.obj
+ 0003:00000ff0       $SG17908                   0000000180014ff0     c2_kamasample1.obj
+ 0003:00000ffc       $SG18201                   0000000180014ffc     c2_kamasample1.obj
+ 0003:00001000       $SG17909                   0000000180015000     c2_kamasample1.obj
+ 0003:0000100c       $SG18208                   000000018001500c     c2_kamasample1.obj
+ 0003:00001010       $SG17914                   0000000180015010     c2_kamasample1.obj
+ 0003:00001018       $SG17915                   0000000180015018     c2_kamasample1.obj
+ 0003:00001020       $SG17916                   0000000180015020     c2_kamasample1.obj
+ 0003:0000105c       $SG17917                   000000018001505c     c2_kamasample1.obj
+ 0003:00001064       $SG17918                   0000000180015064     c2_kamasample1.obj
+ 0003:0000106c       $SG18186                   000000018001506c     c2_kamasample1.obj
+ 0003:00001074       $SG18215                   0000000180015074     c2_kamasample1.obj
+ 0003:00001078       $SG17919                   0000000180015078     c2_kamasample1.obj
+ 0003:00001090       $SG17920                   0000000180015090     c2_kamasample1.obj
+ 0003:000010a0       $SG17921                   00000001800150a0     c2_kamasample1.obj
+ 0003:000010b0       $SG17922                   00000001800150b0     c2_kamasample1.obj
+ 0003:000010b8       $SG17923                   00000001800150b8     c2_kamasample1.obj
+ 0003:000010c4       ?c2_cv1@?1??c2_eml_error@@9@9 00000001800150c4     c2_kamasample1.obj
+ 0003:000010c8       $SG17924                   00000001800150c8     c2_kamasample1.obj
+ 0003:000010d8       $SG17926                   00000001800150d8     c2_kamasample1.obj
+ 0003:000010e8       $SG17930                   00000001800150e8     c2_kamasample1.obj
+ 0003:000010f4       $SG17941                   00000001800150f4     c2_kamasample1.obj
+ 0003:00001100       $SG17925                   0000000180015100     c2_kamasample1.obj
+ 0003:00001148       $SG17927                   0000000180015148     c2_kamasample1.obj
+ 0003:00001154       $SG18236                   0000000180015154     c2_kamasample1.obj
+ 0003:00001158       $SG17928                   0000000180015158     c2_kamasample1.obj
+ 0003:00001164       $SG18241                   0000000180015164     c2_kamasample1.obj
+ 0003:00001168       $SG17929                   0000000180015168     c2_kamasample1.obj
+ 0003:00001174       $SG18259                   0000000180015174     c2_kamasample1.obj
+ 0003:00001178       $SG17931                   0000000180015178     c2_kamasample1.obj
+ 0003:00001184       $SG17312                   0000000180015184     c2_kamasample1.obj
+ 0003:00001188       $SG17932                   0000000180015188     c2_kamasample1.obj
+ 0003:00001194       $SG17313                   0000000180015194     c2_kamasample1.obj
+ 0003:00001198       $SG17933                   0000000180015198     c2_kamasample1.obj
+ 0003:000011a4       $SG17314                   00000001800151a4     c2_kamasample1.obj
+ 0003:000011a8       $SG17938                   00000001800151a8     c2_kamasample1.obj
+ 0003:000011b0       $SG17939                   00000001800151b0     c2_kamasample1.obj
+ 0003:000011b8       $SG17940                   00000001800151b8     c2_kamasample1.obj
+ 0003:000011f4       $SG17942                   00000001800151f4     c2_kamasample1.obj
+ 0003:000011fc       $SG18243                   00000001800151fc     c2_kamasample1.obj
+ 0003:00001204       $SG17311                   0000000180015204     c2_kamasample1.obj
+ 0003:0000120c       $SG17317                   000000018001520c     c2_kamasample1.obj
+ 0003:00001210       $SG17943                   0000000180015210     c2_kamasample1.obj
+ 0003:00001218       $SG17944                   0000000180015218     c2_kamasample1.obj
+ 0003:00001228       $SG17945                   0000000180015228     c2_kamasample1.obj
+ 0003:00001238       $SG17947                   0000000180015238     c2_kamasample1.obj
+ 0003:00001244       $SG17310                   0000000180015244     c2_kamasample1.obj
+ 0003:0000124c       $SG17315                   000000018001524c     c2_kamasample1.obj
+ 0003:00001254       $SG17318                   0000000180015254     c2_kamasample1.obj
+ 0003:00001258       $SG17948                   0000000180015258     c2_kamasample1.obj
+ 0003:00001264       $SG17319                   0000000180015264     c2_kamasample1.obj
+ 0003:00001268       $SG17949                   0000000180015268     c2_kamasample1.obj
+ 0003:000012a0       $SG17950                   00000001800152a0     c2_kamasample1.obj
+ 0003:000012ac       $SG17320                   00000001800152ac     c2_kamasample1.obj
+ 0003:000012b0       $SG17951                   00000001800152b0     c2_kamasample1.obj
+ 0003:000012bc       $SG17321                   00000001800152bc     c2_kamasample1.obj
+ 0003:000012c0       $SG17952                   00000001800152c0     c2_kamasample1.obj
+ 0003:000012cc       $SG17322                   00000001800152cc     c2_kamasample1.obj
+ 0003:000012d0       $SG17953                   00000001800152d0     c2_kamasample1.obj
+ 0003:000012e0       $SG17954                   00000001800152e0     c2_kamasample1.obj
+ 0003:000012f0       $SG17955                   00000001800152f0     c2_kamasample1.obj
+ 0003:00001300       $SG17956                   0000000180015300     c2_kamasample1.obj
+ 0003:00001310       $SG17957                   0000000180015310     c2_kamasample1.obj
+ 0003:00001320       $SG17962                   0000000180015320     c2_kamasample1.obj
+ 0003:00001328       $SG17963                   0000000180015328     c2_kamasample1.obj
+ 0003:00001330       $SG17964                   0000000180015330     c2_kamasample1.obj
+ 0003:00001368       $SG17965                   0000000180015368     c2_kamasample1.obj
+ 0003:00001370       $SG17966                   0000000180015370     c2_kamasample1.obj
+ 0003:00001378       $SG17967                   0000000180015378     c2_kamasample1.obj
+ 0003:00001398       $SG17968                   0000000180015398     c2_kamasample1.obj
+ 0003:000013a8       $SG17969                   00000001800153a8     c2_kamasample1.obj
+ 0003:000013b8       $SG17971                   00000001800153b8     c2_kamasample1.obj
+ 0003:000013c8       $SG17972                   00000001800153c8     c2_kamasample1.obj
+ 0003:000013d8       $SG17974                   00000001800153d8     c2_kamasample1.obj
+ 0003:000013e8       $SG17978                   00000001800153e8     c2_kamasample1.obj
+ 0003:000013f4       $SG17989                   00000001800153f4     c2_kamasample1.obj
+ 0003:00001400       $SG17973                   0000000180015400     c2_kamasample1.obj
+ 0003:00001458       $SG17975                   0000000180015458     c2_kamasample1.obj
+ 0003:00001468       $SG17976                   0000000180015468     c2_kamasample1.obj
+ 0003:00001478       $SG17977                   0000000180015478     c2_kamasample1.obj
+ 0003:00001488       $SG17979                   0000000180015488     c2_kamasample1.obj
+ 0003:00001498       $SG17980                   0000000180015498     c2_kamasample1.obj
+ 0003:000014a8       $SG17981                   00000001800154a8     c2_kamasample1.obj
+ 0003:000014b8       $SG17986                   00000001800154b8     c2_kamasample1.obj
+ 0003:000014c0       $SG17987                   00000001800154c0     c2_kamasample1.obj
+ 0003:000014c8       $SG17988                   00000001800154c8     c2_kamasample1.obj
+ 0003:00001500       $SG17990                   0000000180015500     c2_kamasample1.obj
+ 0003:00001508       $SG17991                   0000000180015508     c2_kamasample1.obj
+ 0003:00001520       $SG17992                   0000000180015520     c2_kamasample1.obj
+ 0003:00001530       $SG17993                   0000000180015530     c2_kamasample1.obj
+ 0003:00001540       $SG17995                   0000000180015540     c2_kamasample1.obj
+ 0003:00001550       $SG17996                   0000000180015550     c2_kamasample1.obj
+ 0003:00001560       $SG17997                   0000000180015560     c2_kamasample1.obj
+ 0003:000015a8       $SG17998                   00000001800155a8     c2_kamasample1.obj
+ 0003:000015b8       $SG17999                   00000001800155b8     c2_kamasample1.obj
+ 0003:000015c8       $SG18000                   00000001800155c8     c2_kamasample1.obj
+ 0003:000015d8       $SG18001                   00000001800155d8     c2_kamasample1.obj
+ 0003:000015e8       $SG18002                   00000001800155e8     c2_kamasample1.obj
+ 0003:000015f8       $SG18003                   00000001800155f8     c2_kamasample1.obj
+ 0003:00001608       $SG18004                   0000000180015608     c2_kamasample1.obj
+ 0003:00001618       $SG18005                   0000000180015618     c2_kamasample1.obj
+ 0003:00001628       $SG18010                   0000000180015628     c2_kamasample1.obj
+ 0003:00001630       $SG18011                   0000000180015630     c2_kamasample1.obj
+ 0003:00001638       $SG18012                   0000000180015638     c2_kamasample1.obj
+ 0003:00001670       $SG18013                   0000000180015670     c2_kamasample1.obj
+ 0003:00001678       $SG18014                   0000000180015678     c2_kamasample1.obj
+ 0003:00001680       $SG18015                   0000000180015680     c2_kamasample1.obj
+ 0003:00001688       $SG18016                   0000000180015688     c2_kamasample1.obj
+ 0003:00001698       $SG18017                   0000000180015698     c2_kamasample1.obj
+ 0003:000016a8       $SG18019                   00000001800156a8     c2_kamasample1.obj
+ 0003:000016b8       $SG18020                   00000001800156b8     c2_kamasample1.obj
+ 0003:000016c8       $SG18021                   00000001800156c8     c2_kamasample1.obj
+ 0003:00001700       $SG18022                   0000000180015700     c2_kamasample1.obj
+ 0003:00001710       $SG18023                   0000000180015710     c2_kamasample1.obj
+ 0003:00001720       $SG18024                   0000000180015720     c2_kamasample1.obj
+ 0003:00001730       $SG18025                   0000000180015730     c2_kamasample1.obj
+ 0003:00001740       $SG18026                   0000000180015740     c2_kamasample1.obj
+ 0003:00001750       $SG18027                   0000000180015750     c2_kamasample1.obj
+ 0003:00001760       $SG18028                   0000000180015760     c2_kamasample1.obj
+ 0003:00001770       $SG18029                   0000000180015770     c2_kamasample1.obj
+ 0003:00001780       $SG18034                   0000000180015780     c2_kamasample1.obj
+ 0003:00001788       $SG18035                   0000000180015788     c2_kamasample1.obj
+ 0003:00001790       $SG18036                   0000000180015790     c2_kamasample1.obj
+ 0003:000017c8       $SG18037                   00000001800157c8     c2_kamasample1.obj
+ 0003:000017d0       $SG18038                   00000001800157d0     c2_kamasample1.obj
+ 0003:000017d8       $SG18039                   00000001800157d8     c2_kamasample1.obj
+ 0003:000017f0       $SG18040                   00000001800157f0     c2_kamasample1.obj
+ 0003:00001800       $SG18041                   0000000180015800     c2_kamasample1.obj
+ 0003:00001810       $SG18043                   0000000180015810     c2_kamasample1.obj
+ 0003:00001820       $SG18044                   0000000180015820     c2_kamasample1.obj
+ 0003:00001830       $SG18045                   0000000180015830     c2_kamasample1.obj
+ 0003:00001870       $SG18046                   0000000180015870     c2_kamasample1.obj
+ 0003:00001880       $SG18047                   0000000180015880     c2_kamasample1.obj
+ 0003:00001890       $SG18048                   0000000180015890     c2_kamasample1.obj
+ 0003:000018a0       $SG18049                   00000001800158a0     c2_kamasample1.obj
+ 0003:000018b0       $SG18050                   00000001800158b0     c2_kamasample1.obj
+ 0003:000018c0       $SG18051                   00000001800158c0     c2_kamasample1.obj
+ 0003:000018d0       $SG18052                   00000001800158d0     c2_kamasample1.obj
+ 0003:000018e0       $SG18053                   00000001800158e0     c2_kamasample1.obj
+ 0003:000018f0       $SG18058                   00000001800158f0     c2_kamasample1.obj
+ 0003:000018f8       $SG18059                   00000001800158f8     c2_kamasample1.obj
+ 0003:00001900       $SG18061                   0000000180015900     c2_kamasample1.obj
+ 0003:00001908       $SG18062                   0000000180015908     c2_kamasample1.obj
+ 0003:00001910       $SG18063                   0000000180015910     c2_kamasample1.obj
+ 0003:00001928       $SG18064                   0000000180015928     c2_kamasample1.obj
+ 0003:00001938       $SG18065                   0000000180015938     c2_kamasample1.obj
+ 0003:00001948       $SG18067                   0000000180015948     c2_kamasample1.obj
+ 0003:00001958       $SG18068                   0000000180015958     c2_kamasample1.obj
+ 0003:00001968       $SG18070                   0000000180015968     c2_kamasample1.obj
+ 0003:00001978       $SG18074                   0000000180015978     c2_kamasample1.obj
+ 0003:00001984       $SG18085                   0000000180015984     c2_kamasample1.obj
+ 0003:00001990       $SG18069                   0000000180015990     c2_kamasample1.obj
+ 0003:000019d8       $SG18071                   00000001800159d8     c2_kamasample1.obj
+ 0003:000019e8       $SG18072                   00000001800159e8     c2_kamasample1.obj
+ 0003:000019f8       $SG18073                   00000001800159f8     c2_kamasample1.obj
+ 0003:00001a08       $SG18075                   0000000180015a08     c2_kamasample1.obj
+ 0003:00001a18       $SG18076                   0000000180015a18     c2_kamasample1.obj
+ 0003:00001a28       $SG18077                   0000000180015a28     c2_kamasample1.obj
+ 0003:00001a38       $SG18082                   0000000180015a38     c2_kamasample1.obj
+ 0003:00001a40       $SG18083                   0000000180015a40     c2_kamasample1.obj
+ 0003:00001a48       $SG18086                   0000000180015a48     c2_kamasample1.obj
+ 0003:00001a50       $SG18084                   0000000180015a50     c2_kamasample1.obj
+ 0003:00001aa0       $SG18087                   0000000180015aa0     c2_kamasample1.obj
+ 0003:00001ac0       $SG18088                   0000000180015ac0     c2_kamasample1.obj
+ 0003:00001ad0       $SG18089                   0000000180015ad0     c2_kamasample1.obj
+ 0003:00001ae0       $SG18091                   0000000180015ae0     c2_kamasample1.obj
+ 0003:00001af0       $SG18092                   0000000180015af0     c2_kamasample1.obj
+ 0003:00001b00       $SG18093                   0000000180015b00     c2_kamasample1.obj
+ 0003:00001b58       $SG18094                   0000000180015b58     c2_kamasample1.obj
+ 0003:00001b68       $SG18095                   0000000180015b68     c2_kamasample1.obj
+ 0003:00001b78       $SG18096                   0000000180015b78     c2_kamasample1.obj
+ 0003:00001b88       $SG18097                   0000000180015b88     c2_kamasample1.obj
+ 0003:00001b98       $SG18098                   0000000180015b98     c2_kamasample1.obj
+ 0003:00001ba8       $SG18099                   0000000180015ba8     c2_kamasample1.obj
+ 0003:00001bb8       $SG18100                   0000000180015bb8     c2_kamasample1.obj
+ 0003:00001bc8       $SG18101                   0000000180015bc8     c2_kamasample1.obj
+ 0003:00001bd8       $SG18106                   0000000180015bd8     c2_kamasample1.obj
+ 0003:00001be0       $SG18107                   0000000180015be0     c2_kamasample1.obj
+ 0003:00001be8       $SG18109                   0000000180015be8     c2_kamasample1.obj
+ 0003:00001bf0       $SG18108                   0000000180015bf0     c2_kamasample1.obj
+ 0003:00001c40       $SG18110                   0000000180015c40     c2_kamasample1.obj
+ 0003:00001c48       $SG18111                   0000000180015c48     c2_kamasample1.obj
+ 0003:00001c68       $SG18112                   0000000180015c68     c2_kamasample1.obj
+ 0003:00001c78       $SG18113                   0000000180015c78     c2_kamasample1.obj
+ 0003:00001c88       $SG18114                   0000000180015c88     c2_kamasample1.obj
+ 0003:00001c90       $SG18115                   0000000180015c90     c2_kamasample1.obj
+ 0003:00001ca0       $SG18116                   0000000180015ca0     c2_kamasample1.obj
+ 0003:00001cb0       $SG18117                   0000000180015cb0     c2_kamasample1.obj
+ 0003:00001d08       $SG18118                   0000000180015d08     c2_kamasample1.obj
+ 0003:00001d18       $SG18119                   0000000180015d18     c2_kamasample1.obj
+ 0003:00001d28       $SG18120                   0000000180015d28     c2_kamasample1.obj
+ 0003:00001d38       $SG18121                   0000000180015d38     c2_kamasample1.obj
+ 0003:00001d48       $SG18122                   0000000180015d48     c2_kamasample1.obj
+ 0003:00001d58       $SG18123                   0000000180015d58     c2_kamasample1.obj
+ 0003:00001d68       $SG18124                   0000000180015d68     c2_kamasample1.obj
+ 0003:00001d78       $SG18125                   0000000180015d78     c2_kamasample1.obj
+ 0003:00001d88       $SG18130                   0000000180015d88     c2_kamasample1.obj
+ 0003:00001d90       $SG18131                   0000000180015d90     c2_kamasample1.obj
+ 0003:00001d98       $SG18133                   0000000180015d98     c2_kamasample1.obj
+ 0003:00001da0       $SG18134                   0000000180015da0     c2_kamasample1.obj
+ 0003:00001da8       $SG18135                   0000000180015da8     c2_kamasample1.obj
+ 0003:00001db0       $SG18136                   0000000180015db0     c2_kamasample1.obj
+ 0003:00001dc0       $SG18137                   0000000180015dc0     c2_kamasample1.obj
+ 0003:00001dd0       $SG18139                   0000000180015dd0     c2_kamasample1.obj
+ 0003:00001de0       $SG18140                   0000000180015de0     c2_kamasample1.obj
+ 0003:00001df0       $SG18141                   0000000180015df0     c2_kamasample1.obj
+ 0003:00001e28       $SG18142                   0000000180015e28     c2_kamasample1.obj
+ 0003:00001e38       $SG18143                   0000000180015e38     c2_kamasample1.obj
+ 0003:00001e48       $SG18144                   0000000180015e48     c2_kamasample1.obj
+ 0003:00001e58       $SG18145                   0000000180015e58     c2_kamasample1.obj
+ 0003:00001e68       $SG18146                   0000000180015e68     c2_kamasample1.obj
+ 0003:00001e78       $SG18147                   0000000180015e78     c2_kamasample1.obj
+ 0003:00001e88       $SG18148                   0000000180015e88     c2_kamasample1.obj
+ 0003:00001e98       $SG18149                   0000000180015e98     c2_kamasample1.obj
+ 0003:00001ea8       $SG18154                   0000000180015ea8     c2_kamasample1.obj
+ 0003:00001eb0       $SG18155                   0000000180015eb0     c2_kamasample1.obj
+ 0003:00001eb8       $SG18156                   0000000180015eb8     c2_kamasample1.obj
+ 0003:00001ef0       $SG18157                   0000000180015ef0     c2_kamasample1.obj
+ 0003:00001ef8       $SG18158                   0000000180015ef8     c2_kamasample1.obj
+ 0003:00001f00       $SG18159                   0000000180015f00     c2_kamasample1.obj
+ 0003:00001f20       $SG18160                   0000000180015f20     c2_kamasample1.obj
+ 0003:00001f30       $SG18161                   0000000180015f30     c2_kamasample1.obj
+ 0003:00001f40       $SG18163                   0000000180015f40     c2_kamasample1.obj
+ 0003:00001f50       $SG18164                   0000000180015f50     c2_kamasample1.obj
+ 0003:00001f60       $SG18165                   0000000180015f60     c2_kamasample1.obj
+ 0003:00001fb8       $SG18166                   0000000180015fb8     c2_kamasample1.obj
+ 0003:00001fc8       $SG18167                   0000000180015fc8     c2_kamasample1.obj
+ 0003:00001fd8       $SG18168                   0000000180015fd8     c2_kamasample1.obj
+ 0003:00001fe8       $SG18169                   0000000180015fe8     c2_kamasample1.obj
+ 0003:00001ff8       $SG18170                   0000000180015ff8     c2_kamasample1.obj
+ 0003:00002008       $SG18171                   0000000180016008     c2_kamasample1.obj
+ 0003:00002018       $SG18172                   0000000180016018     c2_kamasample1.obj
+ 0003:00002028       $SG18173                   0000000180016028     c2_kamasample1.obj
+ 0003:00002038       $SG18178                   0000000180016038     c2_kamasample1.obj
+ 0003:00002040       $SG18179                   0000000180016040     c2_kamasample1.obj
+ 0003:00002048       $SG18180                   0000000180016048     c2_kamasample1.obj
+ 0003:00002080       $SG18181                   0000000180016080     c2_kamasample1.obj
+ 0003:00002088       $SG18182                   0000000180016088     c2_kamasample1.obj
+ 0003:00002090       $SG18183                   0000000180016090     c2_kamasample1.obj
+ 0003:000020a0       $SG18184                   00000001800160a0     c2_kamasample1.obj
+ 0003:000020b0       $SG18185                   00000001800160b0     c2_kamasample1.obj
+ 0003:000020c0       $SG18187                   00000001800160c0     c2_kamasample1.obj
+ 0003:000020d0       $SG18188                   00000001800160d0     c2_kamasample1.obj
+ 0003:000020e0       $SG18189                   00000001800160e0     c2_kamasample1.obj
+ 0003:00002128       $SG18190                   0000000180016128     c2_kamasample1.obj
+ 0003:00002138       $SG18191                   0000000180016138     c2_kamasample1.obj
+ 0003:00002148       $SG18192                   0000000180016148     c2_kamasample1.obj
+ 0003:00002158       $SG18193                   0000000180016158     c2_kamasample1.obj
+ 0003:00002168       $SG18194                   0000000180016168     c2_kamasample1.obj
+ 0003:00002178       $SG18195                   0000000180016178     c2_kamasample1.obj
+ 0003:00002188       $SG18196                   0000000180016188     c2_kamasample1.obj
+ 0003:00002198       $SG18197                   0000000180016198     c2_kamasample1.obj
+ 0003:000021a8       ?c2_cv0@?1??c2_eml_error@@9@9 00000001800161a8     c2_kamasample1.obj
+ 0003:000021c8       $SG18242                   00000001800161c8     c2_kamasample1.obj
+ 0003:000021d0       c2_debug_family_names      00000001800161d0     c2_kamasample1.obj
+ 0003:00002238       $SG17316                   0000000180016238     c2_kamasample1.obj
+ 0003:00002240       $SG18342                   0000000180016240     c2_kamasample1.obj
+ 0003:00002250       $SG18343                   0000000180016250     c2_kamasample1.obj
+ 0003:0000225c       $SG18344                   000000018001625c     c2_kamasample1.obj
+ 0003:00002264       $SG18345                   0000000180016264     c2_kamasample1.obj
+ 0003:00002270       $SG18346                   0000000180016270     c2_kamasample1.obj
+ 0003:00002280       $SG18347                   0000000180016280     c2_kamasample1.obj
+ 0003:00002290       $SG18348                   0000000180016290     c2_kamasample1.obj
+ 0003:00002298       $SG18349                   0000000180016298     c2_kamasample1.obj
+ 0003:000022a0       $SG18350                   00000001800162a0     c2_kamasample1.obj
+ 0003:000022a8       $SG18351                   00000001800162a8     c2_kamasample1.obj
+ 0003:000022b0       $SG18352                   00000001800162b0     c2_kamasample1.obj
+ 0003:000022c0       $SG18353                   00000001800162c0     c2_kamasample1.obj
+ 0003:000022d0       $SG18356                   00000001800162d0     c2_kamasample1.obj
+ 0003:000022e8       $SG18357                   00000001800162e8     c2_kamasample1.obj
+ 0003:000022f4       $SG18359                   00000001800162f4     c2_kamasample1.obj
+ 0003:000022fc       $SG18360                   00000001800162fc     c2_kamasample1.obj
+ 0003:00002304       $SG18361                   0000000180016304     c2_kamasample1.obj
+ 0003:0000230c       $SG18362                   000000018001630c     c2_kamasample1.obj
+ 0003:00002318       $SG18363                   0000000180016318     c2_kamasample1.obj
+ 0003:00002328       $SG18364                   0000000180016328     c2_kamasample1.obj
+ 0003:00002334       $SG18370                   0000000180016334     c2_kamasample1.obj
+ 0003:0000233c       $SG18372                   000000018001633c     c2_kamasample1.obj
+ 0003:00002344       $SG18373                   0000000180016344     c2_kamasample1.obj
+ 0003:0000234c       $SG18374                   000000018001634c     c2_kamasample1.obj
+ 0003:00002354       $SG18375                   0000000180016354     c2_kamasample1.obj
+ 0003:0000235c       $SG18377                   000000018001635c     c2_kamasample1.obj
+ 0003:00002364       $SG18378                   0000000180016364     c2_kamasample1.obj
+ 0003:0000236c       $SG18379                   000000018001636c     c2_kamasample1.obj
+ 0003:00002378       $SG18380                   0000000180016378     c2_kamasample1.obj
+ 0003:00002384       $SG18385                   0000000180016384     c2_kamasample1.obj
+ 0003:0000238c       $SG18387                   000000018001638c     c2_kamasample1.obj
+ 0003:00002394       $SG18388                   0000000180016394     c2_kamasample1.obj
+ 0003:0000239c       $SG18389                   000000018001639c     c2_kamasample1.obj
+ 0003:000023a4       $SG18390                   00000001800163a4     c2_kamasample1.obj
+ 0003:000023ac       $SG18392                   00000001800163ac     c2_kamasample1.obj
+ 0003:000023b4       $SG18393                   00000001800163b4     c2_kamasample1.obj
+ 0003:000023bc       $SG18394                   00000001800163bc     c2_kamasample1.obj
+ 0003:000023c8       $SG18395                   00000001800163c8     c2_kamasample1.obj
+ 0003:000023d4       $SG18400                   00000001800163d4     c2_kamasample1.obj
+ 0003:000023dc       $SG18402                   00000001800163dc     c2_kamasample1.obj
+ 0003:000023e4       $SG18403                   00000001800163e4     c2_kamasample1.obj
+ 0003:000023ec       $SG18404                   00000001800163ec     c2_kamasample1.obj
+ 0003:000023f4       $SG18405                   00000001800163f4     c2_kamasample1.obj
+ 0003:000023fc       $SG18407                   00000001800163fc     c2_kamasample1.obj
+ 0003:00002404       $SG18408                   0000000180016404     c2_kamasample1.obj
+ 0003:0000240c       $SG18409                   000000018001640c     c2_kamasample1.obj
+ 0003:00002418       $SG18410                   0000000180016418     c2_kamasample1.obj
+ 0003:00002424       $SG18415                   0000000180016424     c2_kamasample1.obj
+ 0003:0000242c       $SG18417                   000000018001642c     c2_kamasample1.obj
+ 0003:00002434       $SG18418                   0000000180016434     c2_kamasample1.obj
+ 0003:0000243c       $SG18419                   000000018001643c     c2_kamasample1.obj
+ 0003:00002444       $SG18420                   0000000180016444     c2_kamasample1.obj
+ 0003:0000244c       $SG18422                   000000018001644c     c2_kamasample1.obj
+ 0003:00002454       $SG18423                   0000000180016454     c2_kamasample1.obj
+ 0003:0000245c       $SG18424                   000000018001645c     c2_kamasample1.obj
+ 0003:00002468       $SG18425                   0000000180016468     c2_kamasample1.obj
+ 0003:00002474       $SG18430                   0000000180016474     c2_kamasample1.obj
+ 0003:00002480       $SG15397                   0000000180016480     kamasample1_sfun_registry.obj
+ 0003:000024a4       $SG16706                   00000001800164a4     kamasample1_sfun_registry.obj
+ 0003:000024a8       _sfcnName                  00000001800164a8     kamasample1_sfun_registry.obj
+ 0003:000024c8       $SG15544                   00000001800164c8     kamasample1_sfun_registry.obj
+ 0003:000024d0       $SG15414                   00000001800164d0     kamasample1_sfun_registry.obj
+ 0003:00002548       $SG15545                   0000000180016548     kamasample1_sfun_registry.obj
+ 0003:00002550       $SG15566                   0000000180016550     kamasample1_sfun_registry.obj
+ 0003:00002560       $SG15590                   0000000180016560     kamasample1_sfun_registry.obj
+ 0003:0000256c       $SG15592                   000000018001656c     kamasample1_sfun_registry.obj
+ 0003:00002574       $SG16779                   0000000180016574     kamasample1_sfun_registry.obj
+ 0003:00002578       $SG15595                   0000000180016578     kamasample1_sfun_registry.obj
+ 0003:00002584       $SG16725                   0000000180016584     kamasample1_sfun_registry.obj
+ 0003:0000258c       $SG15263                   000000018001658c     kamasample1_sfun_registry.obj
+ 0003:000025a0       $SG16703                   00000001800165a0     kamasample1_sfun_registry.obj
+ 0003:000025e0       $SG16726                   00000001800165e0     kamasample1_sfun_registry.obj
+ 0003:000025e8       $SG16727                   00000001800165e8     kamasample1_sfun_registry.obj
+ 0003:000025f0       $SG16728                   00000001800165f0     kamasample1_sfun_registry.obj
+ 0003:00002658       $SG16731                   0000000180016658     kamasample1_sfun_registry.obj
+ 0003:00002698       $SG16733                   0000000180016698     kamasample1_sfun_registry.obj
+ 0003:000026a0       $SG16736                   00000001800166a0     kamasample1_sfun_registry.obj
+ 0003:000026a8       $SG16739                   00000001800166a8     kamasample1_sfun_registry.obj
+ 0003:000026b0       $SG16741                   00000001800166b0     kamasample1_sfun_registry.obj
+ 0003:000026e0       $SG16743                   00000001800166e0     kamasample1_sfun_registry.obj
+ 0003:000026f0       $SG16771                   00000001800166f0     kamasample1_sfun_registry.obj
+ 0003:000026fc       $SG16773                   00000001800166fc     kamasample1_sfun_registry.obj
+ 0003:00002704       $SG16775                   0000000180016704     kamasample1_sfun_registry.obj
+ 0003:00002710       $SG16777                   0000000180016710     kamasample1_sfun_registry.obj
+ 0003:00002720       $SG16785                   0000000180016720     kamasample1_sfun_registry.obj
+ 0003:000027c8       $SG16804                   00000001800167c8     kamasample1_sfun_registry.obj
+ 0003:00002800       $SG16807                   0000000180016800     kamasample1_sfun_registry.obj
+ 0003:00002830       $SG16811                   0000000180016830     kamasample1_sfun_registry.obj
+ 0003:00002878       $SG16840                   0000000180016878     kamasample1_sfun_registry.obj
+ 0003:00002880       $SG16817                   0000000180016880     kamasample1_sfun_registry.obj
+ 0003:000028c8       $SG16820                   00000001800168c8     kamasample1_sfun_registry.obj
+ 0003:000028e8       $SG16842                   00000001800168e8     kamasample1_sfun_registry.obj
+ 0003:00002900       $SG16844                   0000000180016900     kamasample1_sfun_registry.obj
+ 0003:000029a0       $SG15843                   00000001800169a0     kamasample1_sfun_registry.obj
+ 0003:00002a10       $SG15853                   0000000180016a10     kamasample1_sfun_registry.obj
+ 0003:00002a80       $SG14845                   0000000180016a80     kamasample1_sfun_registry.obj
+ 0003:00002a98       $SG14850                   0000000180016a98     kamasample1_sfun_registry.obj
+ 0003:00002aa8       $SG16917                   0000000180016aa8     kamasample1_sfun_registry.obj
+ 0003:00002ad8       $SG16925                   0000000180016ad8     kamasample1_sfun_registry.obj
+ 0003:00002b00       $SG14879                   0000000180016b00     kamasample1_sfun_registry.obj
+ 0003:00002b20       $SG14884                   0000000180016b20     kamasample1_sfun_registry.obj
+ 0003:00002b30       $SG16933                   0000000180016b30     kamasample1_sfun_registry.obj
+ 0003:00002b60       $SG16942                   0000000180016b60     kamasample1_sfun_registry.obj
+ 0003:00002b90       $SG16951                   0000000180016b90     kamasample1_sfun_registry.obj
+ 0003:00002bc8       $SG16956                   0000000180016bc8     kamasample1_sfun_registry.obj
+ 0003:00002c00       $SG16964                   0000000180016c00     kamasample1_sfun_registry.obj
+ 0003:00002c30       $SG14917                   0000000180016c30     kamasample1_sfun_registry.obj
+ 0003:00002c50       $SG14922                   0000000180016c50     kamasample1_sfun_registry.obj
+ 0003:00002c60       $SG16972                   0000000180016c60     kamasample1_sfun_registry.obj
+ 0003:00002c90       $SG16979                   0000000180016c90     kamasample1_sfun_registry.obj
+ 0003:00002cc0       $SG16986                   0000000180016cc0     kamasample1_sfun_registry.obj
+ 0003:00002cf0       $SG16991                   0000000180016cf0     kamasample1_sfun_registry.obj
+ 0003:00002d20       $SG16999                   0000000180016d20     kamasample1_sfun_registry.obj
+ 0003:00002d50       $SG14955                   0000000180016d50     kamasample1_sfun_registry.obj
+ 0003:00002d68       $SG17007                   0000000180016d68     kamasample1_sfun_registry.obj
+ 0003:00002da0       $SG14960                   0000000180016da0     kamasample1_sfun_registry.obj
+ 0003:00002db0       $SG17012                   0000000180016db0     kamasample1_sfun_registry.obj
+ 0003:00002de8       $SG17020                   0000000180016de8     kamasample1_sfun_registry.obj
+ 0003:00002e18       $SG17026                   0000000180016e18     kamasample1_sfun_registry.obj
+ 0003:00002e40       $SG17031                   0000000180016e40     kamasample1_sfun_registry.obj
+ 0003:00002e60       $SG17036                   0000000180016e60     kamasample1_sfun_registry.obj
+ 0003:00002e90       $SG17041                   0000000180016e90     kamasample1_sfun_registry.obj
+ 0003:00002eb0       $SG14993                   0000000180016eb0     kamasample1_sfun_registry.obj
+ 0003:00002ed0       $SG17046                   0000000180016ed0     kamasample1_sfun_registry.obj
+ 0003:00002ef0       $SG14998                   0000000180016ef0     kamasample1_sfun_registry.obj
+ 0003:00002f00       $SG17051                   0000000180016f00     kamasample1_sfun_registry.obj
+ 0003:00002f20       $SG17056                   0000000180016f20     kamasample1_sfun_registry.obj
+ 0003:00002f48       $SG17061                   0000000180016f48     kamasample1_sfun_registry.obj
+ 0003:00002f70       $SG17066                   0000000180016f70     kamasample1_sfun_registry.obj
+ 0003:00002f98       $SG17075                   0000000180016f98     kamasample1_sfun_registry.obj
+ 0003:00002fc0       $SG17079                   0000000180016fc0     kamasample1_sfun_registry.obj
+ 0003:00002fe8       $SG15031                   0000000180016fe8     kamasample1_sfun_registry.obj
+ 0003:00003008       $SG15036                   0000000180017008     kamasample1_sfun_registry.obj
+ 0003:00003018       $SG16061                   0000000180017018     kamasample1_sfun_registry.obj
+ 0003:00003058       $SG17087                   0000000180017058     kamasample1_sfun_registry.obj
+ 0003:00003080       $SG16066                   0000000180017080     kamasample1_sfun_registry.obj
+ 0003:000030b0       $SG17094                   00000001800170b0     kamasample1_sfun_registry.obj
+ 0003:000030d8       $SG16085                   00000001800170d8     kamasample1_sfun_registry.obj
+ 0003:00003110       $SG16071                   0000000180017110     kamasample1_sfun_registry.obj
+ 0003:00003158       $SG15068                   0000000180017158     kamasample1_sfun_registry.obj
+ 0003:00003170       $SG15073                   0000000180017170     kamasample1_sfun_registry.obj
+ 0003:00003180       $SG15091                   0000000180017180     kamasample1_sfun_registry.obj
+ 0003:00003190       $SG15136                   0000000180017190     kamasample1_sfun_registry.obj
+ 0003:000031a8       $SG15167                   00000001800171a8     kamasample1_sfun_registry.obj
+ 0003:000031b8       $SG15264                   00000001800171b8     kamasample1_sfun_registry.obj
+ 0003:000031cc       $SG15269                   00000001800171cc     kamasample1_sfun_registry.obj
+ 0003:000031d8       $SG15270                   00000001800171d8     kamasample1_sfun_registry.obj
+ 0003:000031f8       $SG16357                   00000001800171f8     kamasample1_sfun_registry.obj
+ 0003:00003238       $SG16365                   0000000180017238     kamasample1_sfun_registry.obj
+ 0003:00003270       $SG16379                   0000000180017270     kamasample1_sfun_registry.obj
+ 0003:000032b0       sRtwOptimizationInfoStruct 00000001800172b0     kamasample1_sfun.obj
+ 0003:000032b8       $SG18488                   00000001800172b8     c2_kamasample1.obj
+ 0003:000032b9       $SG18505                   00000001800172b9     c2_kamasample1.obj
+ 0003:000032ba       $SG17748                   00000001800172ba     c2_kamasample1.obj
+ 0003:000032bb       $SG17820                   00000001800172bb     c2_kamasample1.obj
+ 0003:000032bc       $SG17892                   00000001800172bc     c2_kamasample1.obj
+ 0003:000032bd       $SG18060                   00000001800172bd     c2_kamasample1.obj
+ 0003:000032be       $SG18066                   00000001800172be     c2_kamasample1.obj
+ 0003:000032bf       $SG18132                   00000001800172bf     c2_kamasample1.obj
+ 0003:000032c0       _sfTime_                   00000001800172c0     c2_kamasample1.obj
+ 0003:000032d0       $SG16720                   00000001800172d0     kamasample1_sfun_registry.obj
+ 0003:000032e0       sfGlobalMdlStartCallCounts 00000001800172e0     kamasample1_sfun_registry.obj
+ 0003:000032f0       ?errmsg@?N@??ssWriteRTWWorkVect@@9@9 00000001800172f0     kamasample1_sfun_registry.obj
+ 0003:000033c0       GS_ExceptionRecord         00000001800173c0     MSVCRT:gs_report.obj
+ 0003:00003460       GS_ContextRecord           0000000180017460     MSVCRT:gs_report.obj
+ 0003:00003930       DebuggerWasPresent         0000000180017930     MSVCRT:gs_report.obj
+ 0003:00003934       __proc_attached            0000000180017934     MSVCRT:crtdll.obj
+ 0004:00000000       $pdata$load_kamasample1_optimization_info 0000000180018000     kamasample1_sfun.obj
+ 0004:0000000c       $pdata$unload_kamasample1_optimization_info 000000018001800c     kamasample1_sfun.obj
+ 0004:00000018       $pdata$sf_kamasample1_method_dispatcher 0000000180018018     kamasample1_sfun.obj
+ 0004:00000024       $pdata$sf_kamasample1_uses_exported_functions 0000000180018024     kamasample1_sfun.obj
+ 0004:00000030       $pdata$sf_kamasample1_process_check_sum_call 0000000180018030     kamasample1_sfun.obj
+ 0004:0000003c       $pdata$sf_kamasample1_autoinheritance_info 000000018001803c     kamasample1_sfun.obj
+ 0004:00000048       $pdata$sf_kamasample1_get_eml_resolved_functions_info 0000000180018048     kamasample1_sfun.obj
+ 0004:00000054       $pdata$sf_kamasample1_third_party_uses_info 0000000180018054     kamasample1_sfun.obj
+ 0004:00000060       $pdata$sf_kamasample1_jit_fallback_info 0000000180018060     kamasample1_sfun.obj
+ 0004:0000006c       $pdata$sf_kamasample1_updateBuildInfo_args_info 000000018001806c     kamasample1_sfun.obj
+ 0004:00000078       $pdata$sf_kamasample1_get_post_codegen_info 0000000180018078     kamasample1_sfun.obj
+ 0004:00000084       $pdata$kamasample1_debug_initialize 0000000180018084     kamasample1_sfun.obj
+ 0004:00000090       $pdata$sf_c2_kamasample1_get_eml_resolved_functions_info 0000000180018090     c2_kamasample1.obj
+ 0004:0000009c       $pdata$sf_c2_kamasample1_get_check_sum 000000018001809c     c2_kamasample1.obj
+ 0004:000000a8       $pdata$c2_kamasample1_method_dispatcher 00000001800180a8     c2_kamasample1.obj
+ 0004:000000b4       $pdata$initialize_c2_kamasample1 00000001800180b4     c2_kamasample1.obj
+ 0004:000000c0       $pdata$enable_c2_kamasample1 00000001800180c0     c2_kamasample1.obj
+ 0004:000000cc       $pdata$disable_c2_kamasample1 00000001800180cc     c2_kamasample1.obj
+ 0004:000000d8       $pdata$get_sim_state_c2_kamasample1 00000001800180d8     c2_kamasample1.obj
+ 0004:000000e4       $pdata$set_sim_state_c2_kamasample1 00000001800180e4     c2_kamasample1.obj
+ 0004:000000f0       $pdata$sf_gateway_c2_kamasample1 00000001800180f0     c2_kamasample1.obj
+ 0004:000000fc       $pdata$c2_chartstep_c2_kamasample1 00000001800180fc     c2_kamasample1.obj
+ 0004:00000108       $pdata$c2_sf_marshallOut   0000000180018108     c2_kamasample1.obj
+ 0004:00000114       $pdata$c2_emlrt_marshallIn 0000000180018114     c2_kamasample1.obj
+ 0004:00000120       $pdata$c2_b_emlrt_marshallIn 0000000180018120     c2_kamasample1.obj
+ 0004:0000012c       $pdata$c2_sf_marshallIn    000000018001812c     c2_kamasample1.obj
+ 0004:00000138       $pdata$c2_info_helper      0000000180018138     c2_kamasample1.obj
+ 0004:00000144       $pdata$c2_emlrt_marshallOut 0000000180018144     c2_kamasample1.obj
+ 0004:00000150       $pdata$c2_b_emlrt_marshallOut 0000000180018150     c2_kamasample1.obj
+ 0004:0000015c       $pdata$c2_eml_error        000000018001815c     c2_kamasample1.obj
+ 0004:00000168       $pdata$c2_d_emlrt_marshallIn 0000000180018168     c2_kamasample1.obj
+ 0004:00000174       $pdata$c2_e_emlrt_marshallIn 0000000180018174     c2_kamasample1.obj
+ 0004:00000180       $pdata$init_simulink_io_address 0000000180018180     c2_kamasample1.obj
+ 0004:0000018c       $pdata$sf_c2_kamasample1_get_post_codegen_info 000000018001818c     c2_kamasample1.obj
+ 0004:00000198       $pdata$sf_c2_kamasample1_get_autoinheritance_info 0000000180018198     c2_kamasample1.obj
+ 0004:000001a4       $pdata$sf_c2_kamasample1_third_party_uses_info 00000001800181a4     c2_kamasample1.obj
+ 0004:000001b0       $pdata$sf_c2_kamasample1_jit_fallback_info 00000001800181b0     c2_kamasample1.obj
+ 0004:000001bc       $pdata$sf_c2_kamasample1_updateBuildInfo_args_info 00000001800181bc     c2_kamasample1.obj
+ 0004:000001c8       $pdata$sf_get_sim_state_info_c2_kamasample1 00000001800181c8     c2_kamasample1.obj
+ 0004:000001d4       $pdata$chart_debug_initialization 00000001800181d4     c2_kamasample1.obj
+ 0004:000001e0       $pdata$sf_opaque_initialize_c2_kamasample1 00000001800181e0     c2_kamasample1.obj
+ 0004:000001ec       $pdata$sf_opaque_enable_c2_kamasample1 00000001800181ec     c2_kamasample1.obj
+ 0004:000001f8       $pdata$sf_opaque_disable_c2_kamasample1 00000001800181f8     c2_kamasample1.obj
+ 0004:00000204       $pdata$sf_opaque_gateway_c2_kamasample1 0000000180018204     c2_kamasample1.obj
+ 0004:00000210       $pdata$sf_opaque_get_sim_state_c2_kamasample1 0000000180018210     c2_kamasample1.obj
+ 0004:0000021c       $pdata$sf_opaque_set_sim_state_c2_kamasample1 000000018001821c     c2_kamasample1.obj
+ 0004:00000228       $pdata$sf_opaque_terminate_c2_kamasample1 0000000180018228     c2_kamasample1.obj
+ 0004:00000234       $pdata$sf_opaque_init_subchart_simstructs 0000000180018234     c2_kamasample1.obj
+ 0004:00000240       $pdata$mdlProcessParameters_c2_kamasample1 0000000180018240     c2_kamasample1.obj
+ 0004:0000024c       $pdata$mdlSetWorkWidths_c2_kamasample1 000000018001824c     c2_kamasample1.obj
+ 0004:00000258       $pdata$mdlRTW_c2_kamasample1 0000000180018258     c2_kamasample1.obj
+ 0004:00000264       $pdata$mdlStart_c2_kamasample1 0000000180018264     c2_kamasample1.obj
+ 0004:00000270       $pdata$mexFunction         0000000180018270     kamasample1_sfun_registry.obj
+ 0004:0000027c       $pdata$_ssSetInputPortDirectFeedThroughFcn 000000018001827c     kamasample1_sfun_registry.obj
+ 0004:00000288       $pdata$_ssGetInputPortSignalPtrsFcn 0000000180018288     kamasample1_sfun_registry.obj
+ 0004:00000294       $pdata$_ssGetInputPortSignalFcn 0000000180018294     kamasample1_sfun_registry.obj
+ 0004:000002a0       $pdata$_ssSetInputPortReusableFcn 00000001800182a0     kamasample1_sfun_registry.obj
+ 0004:000002ac       $pdata$_ssSetOutputPortReusableFcn 00000001800182ac     kamasample1_sfun_registry.obj
+ 0004:000002b8       $pdata$ssGetIsZeroCrossControlDisabled 00000001800182b8     kamasample1_sfun_registry.obj
+ 0004:000002c4       $pdata$ssSetIsInputPortUsedForContZcSignal 00000001800182c4     kamasample1_sfun_registry.obj
+ 0004:000002d0       $pdata$ssSetZcSignalIsZcElementDisc 00000001800182d0     kamasample1_sfun_registry.obj
+ 0004:000002dc       $pdata$ssSetZcSignalName   00000001800182dc     kamasample1_sfun_registry.obj
+ 0004:000002e8       $pdata$ssSetZcSignalWidth  00000001800182e8     kamasample1_sfun_registry.obj
+ 0004:000002f4       $pdata$ssSetZcSignalZcEventType 00000001800182f4     kamasample1_sfun_registry.obj
+ 0004:00000300       $pdata$ssSetZcSignalType   0000000180018300     kamasample1_sfun_registry.obj
+ 0004:0000030c       $pdata$ssSetZcSignalZcTol  000000018001830c     kamasample1_sfun_registry.obj
+ 0004:00000318       $pdata$ssSetZcSignalNeedsEventNotification 0000000180018318     kamasample1_sfun_registry.obj
+ 0004:00000324       $pdata$ssCreateAndAddZcSignalInfo 0000000180018324     kamasample1_sfun_registry.obj
+ 0004:00000330       $pdata$ssCloneAndAddZcSignalInfo 0000000180018330     kamasample1_sfun_registry.obj
+ 0004:0000033c       $pdata$ssGetNumZcSignals   000000018001833c     kamasample1_sfun_registry.obj
+ 0004:00000348       $pdata$ssGetZcSignalVector 0000000180018348     kamasample1_sfun_registry.obj
+ 0004:00000354       $pdata$ssGetZcSignalName   0000000180018354     kamasample1_sfun_registry.obj
+ 0004:00000360       $pdata$ssGetZcSignalWidth  0000000180018360     kamasample1_sfun_registry.obj
+ 0004:0000036c       $pdata$ssGetZcSignalZcEventType 000000018001836c     kamasample1_sfun_registry.obj
+ 0004:00000378       $pdata$ssGetZcSignalZcEvents 0000000180018378     kamasample1_sfun_registry.obj
+ 0004:00000384       $pdata$ssGetZcSignalType   0000000180018384     kamasample1_sfun_registry.obj
+ 0004:00000390       $pdata$ssGetZcSignalZcTol  0000000180018390     kamasample1_sfun_registry.obj
+ 0004:0000039c       $pdata$ssGetZcSignalNeedsEventNotification 000000018001839c     kamasample1_sfun_registry.obj
+ 0004:000003a8       $pdata$ssGetZcSignalIsZcElementDisc 00000001800183a8     kamasample1_sfun_registry.obj
+ 0004:000003b4       $pdata$ssGetIsInputPortElementContinuous 00000001800183b4     kamasample1_sfun_registry.obj
+ 0004:000003c0       $pdata$ssGetDTypeIdFromMxArray 00000001800183c0     kamasample1_sfun_registry.obj
+ 0004:000003cc       $pdata$ssWriteRTWStr       00000001800183cc     kamasample1_sfun_registry.obj
+ 0004:000003d8       $pdata$ssWriteRTWNameValuePair 00000001800183d8     kamasample1_sfun_registry.obj
+ 0004:000003e4       $pdata$ssWriteRTWParamSettings 00000001800183e4     kamasample1_sfun_registry.obj
+ 0004:000003f0       $pdata$ssWriteRTWParameters 00000001800183f0     kamasample1_sfun_registry.obj
+ 0004:000003fc       $pdata$ssWriteRTWWorkVect  00000001800183fc     kamasample1_sfun_registry.obj
+ 0004:00000408       $pdata$ssWriteRTWMxVectParam 0000000180018408     kamasample1_sfun_registry.obj
+ 0004:00000414       $pdata$ssWriteRTWMx2dMatParam 0000000180018414     kamasample1_sfun_registry.obj
+ 0004:00000420       $pdata$_ssSetInputPortMatrixDimensions 0000000180018420     kamasample1_sfun_registry.obj
+ 0004:0000042c       $pdata$_ssSetOutputPortMatrixDimensions 000000018001842c     kamasample1_sfun_registry.obj
+ 0004:00000438       $pdata$_ssSetInputPortVectorDimension 0000000180018438     kamasample1_sfun_registry.obj
+ 0004:00000444       $pdata$_ssSetOutputPortVectorDimension 0000000180018444     kamasample1_sfun_registry.obj
+ 0004:00000450       $pdata$ssIsRunTimeParamTunable 0000000180018450     kamasample1_sfun_registry.obj
+ 0004:0000045c       $pdata$ssGetSFuncBlockHandle 000000018001845c     kamasample1_sfun_registry.obj
+ 0004:00000468       $pdata$_ssGetCurrentInputPortWidth 0000000180018468     kamasample1_sfun_registry.obj
+ 0004:00000474       $pdata$_ssGetCurrentOutputPortWidth 0000000180018474     kamasample1_sfun_registry.obj
+ 0004:00000480       $pdata$_ssGetCallSystemNumFcnCallDestinations 0000000180018480     kamasample1_sfun_registry.obj
+ 0004:0000048c       $pdata$ssWarning           000000018001848c     kamasample1_sfun_registry.obj
+ 0004:00000498       $pdata$_ssGetAbsTol        0000000180018498     kamasample1_sfun_registry.obj
+ 0004:000004a4       $pdata$sf_process_check_sum_call 00000001800184a4     kamasample1_sfun_registry.obj
+ 0004:000004b0       $pdata$sf_process_machine_uses_exported_functions_call 00000001800184b0     kamasample1_sfun_registry.obj
+ 0004:000004bc       $pdata$sf_process_autoinheritance_call 00000001800184bc     kamasample1_sfun_registry.obj
+ 0004:000004c8       $pdata$sf_process_get_third_party_uses_info_call 00000001800184c8     kamasample1_sfun_registry.obj
+ 0004:000004d4       $pdata$sf_process_get_jit_fallback_info_call 00000001800184d4     kamasample1_sfun_registry.obj
+ 0004:000004e0       $pdata$sf_process_get_updateBuildInfo_args_info_call 00000001800184e0     kamasample1_sfun_registry.obj
+ 0004:000004ec       $pdata$sf_process_get_eml_resolved_functions_info_call 00000001800184ec     kamasample1_sfun_registry.obj
+ 0004:000004f8       $pdata$sf_process_get_post_codegen_info 00000001800184f8     kamasample1_sfun_registry.obj
+ 0004:00000504       $pdata$sf_mex_unlock_call  0000000180018504     kamasample1_sfun_registry.obj
+ 0004:00000510       $pdata$sf_debug_api_wrapper 0000000180018510     kamasample1_sfun_registry.obj
+ 0004:0000051c       $pdata$ProcessMexSfunctionCmdLineCall 000000018001851c     kamasample1_sfun_registry.obj
+ 0004:00000528       $pdata$sf_machine_global_initializer_called 0000000180018528     kamasample1_sfun_registry.obj
+ 0004:00000534       $pdata$sf_machine_global_method_dispatcher 0000000180018534     kamasample1_sfun_registry.obj
+ 0004:00000540       $pdata$sf_machine_global_terminator 0000000180018540     kamasample1_sfun_registry.obj
+ 0004:0000054c       $pdata$sf_register_machine_exported_symbols 000000018001854c     kamasample1_sfun_registry.obj
+ 0004:00000558       $pdata$sf_machine_global_initializer 0000000180018558     kamasample1_sfun_registry.obj
+ 0004:00000564       $pdata$getChartInfoFromSimStruct 0000000180018564     kamasample1_sfun_registry.obj
+ 0004:00000570       $pdata$mdlGetSimState      0000000180018570     kamasample1_sfun_registry.obj
+ 0004:0000057c       $pdata$mdlSetSimState      000000018001857c     kamasample1_sfun_registry.obj
+ 0004:00000588       $pdata$mdlSetWorkWidths    0000000180018588     kamasample1_sfun_registry.obj
+ 0004:00000594       $pdata$mdlProcessParameters 0000000180018594     kamasample1_sfun_registry.obj
+ 0004:000005a0       $pdata$mdl_start_processing 00000001800185a0     kamasample1_sfun_registry.obj
+ 0004:000005ac       $pdata$mdl_terminate_processing 00000001800185ac     kamasample1_sfun_registry.obj
+ 0004:000005b8       $pdata$mdlStart            00000001800185b8     kamasample1_sfun_registry.obj
+ 0004:000005c4       $pdata$mdlTerminate        00000001800185c4     kamasample1_sfun_registry.obj
+ 0004:000005d0       $pdata$mdlInitializeSizes  00000001800185d0     kamasample1_sfun_registry.obj
+ 0004:000005dc       $pdata$mdlInitializeSampleTimes 00000001800185dc     kamasample1_sfun_registry.obj
+ 0004:000005e8       $pdata$mdl_outputs_continuous_legacy 00000001800185e8     kamasample1_sfun_registry.obj
+ 0004:000005f4       $pdata$mdl_outputs_processing 00000001800185f4     kamasample1_sfun_registry.obj
+ 0004:00000600       $pdata$mdl_zeroCrossings_processing 0000000180018600     kamasample1_sfun_registry.obj
+ 0004:0000060c       $pdata$mdlZeroCrossings    000000018001860c     kamasample1_sfun_registry.obj
+ 0004:00000618       $pdata$mdl_derivatives_processing 0000000180018618     kamasample1_sfun_registry.obj
+ 0004:00000624       $pdata$mdlDerivatives      0000000180018624     kamasample1_sfun_registry.obj
+ 0004:00000630       $pdata$mdl_initialize_conditions_processing 0000000180018630     kamasample1_sfun_registry.obj
+ 0004:0000063c       $pdata$mdlInitializeConditions 000000018001863c     kamasample1_sfun_registry.obj
+ 0004:00000648       $pdata$mdl_ext_mode_exec_processing 0000000180018648     kamasample1_sfun_registry.obj
+ 0004:00000654       $pdata$mdlExtModeExec      0000000180018654     kamasample1_sfun_registry.obj
+ 0004:00000660       $pdata$mdlRTW              0000000180018660     kamasample1_sfun_registry.obj
+ 0004:0000066c       $pdata$mdl_enable_processing 000000018001866c     kamasample1_sfun_registry.obj
+ 0004:00000678       $pdata$mdlEnable           0000000180018678     kamasample1_sfun_registry.obj
+ 0004:00000684       $pdata$mdl_disable_processing 0000000180018684     kamasample1_sfun_registry.obj
+ 0004:00000690       $pdata$mdlDisable          0000000180018690     kamasample1_sfun_registry.obj
+ 0004:0000069c       $pdata$mdlOutputs          000000018001869c     kamasample1_sfun_registry.obj
+ 0004:000006a8       $pdata$ProcessMexSfunctionEveryCall 00000001800186a8     kamasample1_sfun_registry.obj
+ 0004:000006b4       $pdata$_RegNumInputPortsCB 00000001800186b4     kamasample1_sfun_registry.obj
+ 0004:000006c0       $pdata$_RegNumOutputPortsCB 00000001800186c0     kamasample1_sfun_registry.obj
+ 0004:000006cc       $pdata$_CreateSimStruct    00000001800186cc     kamasample1_sfun_registry.obj
+ 0004:000006d8       $pdata$_ssFatalError       00000001800186d8     kamasample1_sfun_registry.obj
+ 0004:000006e4       $pdata$_ProcessMexSfunctionCmdLineCall 00000001800186e4     kamasample1_sfun_registry.obj
+ 0004:000006f0       $pdata$__raise_securityfailure 00000001800186f0     MSVCRT:gs_report.obj
+ 0004:000006fc       $pdata$__report_gsfailure  00000001800186fc     MSVCRT:gs_report.obj
+ 0004:00000708       $pdata$__report_rangecheckfailure 0000000180018708     MSVCRT:gs_report.obj
+ 0004:00000714       $pdata$__report_securityfailure 0000000180018714     MSVCRT:gs_report.obj
+ 0004:00000720       $pdata$__report_securityfailureEx 0000000180018720     MSVCRT:gs_report.obj
+ 0004:0000072c       $pdata$__GSHandlerCheck    000000018001872c     MSVCRT:gshandler.obj
+ 0004:00000738       $pdata$__GSHandlerCheckCommon 0000000180018738     MSVCRT:gshandler.obj
+ 0004:00000750       $pdata$pre_c_init          0000000180018750     MSVCRT:crtdll.obj
+ 0004:0000075c       $pdata$_CRT_INIT           000000018001875c     MSVCRT:crtdll.obj
+ 0004:00000768       $pdata$_DllMainCRTStartup  0000000180018768     MSVCRT:crtdll.obj
+ 0004:00000774       $pdata$__DllMainCRTStartup 0000000180018774     MSVCRT:crtdll.obj
+ 0004:00000780       $pdata$_IsNonwritableInCurrentImage 0000000180018780     MSVCRT:pesect.obj
+ 0004:0000078c       $pdata$__atonexitinit      000000018001878c     MSVCRT:atonexit.obj
+ 0004:00000798       $pdata$_onexit             0000000180018798     MSVCRT:atonexit.obj
+ 0004:000007a4       $pdata$atexit              00000001800187a4     MSVCRT:atonexit.obj
+ 0004:000007b0       $pdata$__security_init_cookie 00000001800187b0     MSVCRT:gs_support.obj
+ 0004:000007bc       $pdata$DllMain             00000001800187bc     MSVCRT:dllmain.obj
+ 0004:000007c8       $pdata$_RTC_Initialize     00000001800187c8     MSVCRT:initsect.obj
+ 0004:000007d4       $pdata$_RTC_Terminate      00000001800187d4     MSVCRT:initsect.obj
+ 0004:000007e0       $pdata$__DllMainCRTStartup$filt$0 00000001800187e0     MSVCRT:crtdll.obj
+ 0004:000007ec       $pdata$__DllMainCRTStartup$fin$1 00000001800187ec     MSVCRT:crtdll.obj
+ 0004:000007f8       $pdata$_IsNonwritableInCurrentImage$filt$0 00000001800187f8     MSVCRT:pesect.obj
+ 0004:00000804       $pdata$_onexit$fin$0       0000000180018804     MSVCRT:atonexit.obj
